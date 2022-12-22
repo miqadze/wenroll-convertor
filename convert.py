@@ -38,7 +38,8 @@ os.chmod(folder_name + "_720p.mp4", 0o777)
 os.chmod(folder_name + "_1080p.mp4", 0o777)
 os.chmod(folder_name + "_playlist.m3u8", 0o777)
 
-s3 = boto3.client("s3")
+s3 = boto3.client('s3', region_name='eu-central-1', aws_access_key_id="AKIARUF3VUB7QQYSBXTX",
+                               aws_secret_access_key="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")
 
 try:
     s3.upload_file(folder_name + "_480p.mp4", "test-wenroll", folder_name + "/" + folder_name + "_480p.mp4")
