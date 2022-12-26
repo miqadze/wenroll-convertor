@@ -12,8 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['video_name'])) {
         http_response_code(200);
         echo "Process started";
         fastcgi_finish_request();
-        //exec("python3 convert.py $video_name 2>&1 >> py.log", $output);
-        exec("/bin/bash shell.sh $video_name 2>&1 >> py.log", $output);
+        exec("python3 convert.py $video_name 2>&1 >> py.log", $output);
     }
 }
 ?>
