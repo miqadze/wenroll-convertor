@@ -4,7 +4,7 @@ import os
 import pymongo
 folder_name = sys.argv[1]
 s3 = boto3.client('s3')
-bucket_name = bucket_name
+bucket_name = "development-wenroll"
 try:
     s3.upload_file(folder_name + "_480p.mp4", bucket_name, folder_name + "/" + folder_name + "_480p.mp4")
     s3.upload_file(folder_name + "_720p.mp4", bucket_name, folder_name + "/" + folder_name + "_720p.mp4")
