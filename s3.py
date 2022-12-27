@@ -18,6 +18,7 @@ try:
 except Exception as e:
     print(f"Error occurred while running upload_file: {e}")
 try:
+    print(folder_name)
     client = pymongo.MongoClient("mongodb+srv://wenroll:duB2BNFI123Q1Yhh@developmentstaging.494tz.mongodb.net")
     db = client["wenroll_development"]
     collection = db["videos"]
