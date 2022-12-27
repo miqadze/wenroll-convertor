@@ -2,6 +2,7 @@ import sys
 import boto3
 import os
 import pymongo
+import subprocess
 folder_name = sys.argv[1]
 s3 = boto3.client('s3')
 transfer_manager = boto3.client('s3').transfer
@@ -18,7 +19,13 @@ try:
     s3.upload_file(folder_name + "_720p.ts", bucket_name, folder_name + "/" + folder_name + "_720p.ts")
     s3.upload_file(folder_name + "_1080p.ts", bucket_name, folder_name + "/" + folder_name + "_1080p.ts")
     s3.upload_file(folder_name + "_playlist.m3u8", bucket_name, folder_name + "/" + folder_name + "_playlist.m3u8")
-    transfer_manager.remove(bucket=bucket_name, key=original)
+    result = subprocess.run(['aws', 's3', 'rm', 's3://development-wenroll/' + folder_name, '--recursive'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+    print(result.stdout)
+    print(result.stderr)
+    if result.returncode == 0:
+        print('Command completed successfully')
+    else:
+        print('Command failed')
 except Exception as e:
     print(f"Error occurred while running upload_file: {e}")
 try:
