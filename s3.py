@@ -16,7 +16,7 @@ try:
     s3.upload_file(folder_name + "_720p.ts", bucket_name, folder_name + "/" + folder_name + "_720p.ts")
     s3.upload_file(folder_name + "_1080p.ts", bucket_name, folder_name + "/" + folder_name + "_1080p.ts")
     s3.upload_file(folder_name + "_playlist.m3u8", bucket_name, folder_name + "/" + folder_name + "_playlist.m3u8")
-    s3.delete_object(bucket_name, folder_name + ".mp4")
+    s3.delete_object(Bucket=bucket_name, Key=folder_name + ".mp4")
 except Exception as e:
     print(f"Error occurred while running upload_file: {e}")
 try:
