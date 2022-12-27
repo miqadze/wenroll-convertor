@@ -6,7 +6,17 @@ import boto3
 input_file = sys.argv[1]
 folder_name = input_file.rsplit(".", 1)[0]
 output_file = folder_name + '_compressed.mp4'
+thumbnail_file = folder_name + "_thumbnail.jpg"
+try:
+   subprocess.run(["ffmpeg", "-i", input_file, "-vframes", "1", "-ss", "00:00:01", "-y", thumbnail_file])
+except Exception as e:
+   print(f"Error occured while running jpeg generation: {e}")
 
+s3 = boto3.client('s3')
+try:
+    s3.upload_file(folder_name + "_thumbnail.jpg", "test-wenroll", folder_name + "/" + folder_name + "_thumbnail.jpg")
+except Exception as e:
+    print(f"Error occurred while running upload_file(jpeg): {e}")
 try:
     subprocess.run(['ffmpeg', '-i', input_file, '-vcodec', 'libx264', '-crf', '25', '-preset', 'medium', '-tune', 'film', '-y', output_file])
 except Exception as e:
@@ -54,5 +64,6 @@ os.chown(folder_name + "_480p.m3u8", 1000, 1000)
 os.chown(folder_name + "_720p.m3u8", 1000, 1000)
 os.chown(folder_name + "_1080p.m3u8", 1000, 1000)
 os.chown(folder_name + "_playlist.m3u8", 1000, 1000)
-with open("py.log", "w") as log_file:
-    subprocess.run(["python3", "s3.py", folder_name], stdout=log_file, stderr=log_file)
+
+with open('py.log', 'a') as f:
+    subprocess.run(['python3', 's3.py', folder_name], stdout=f)
