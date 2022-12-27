@@ -4,7 +4,9 @@ import os
 import pymongo
 folder_name = sys.argv[1]
 s3 = boto3.client('s3')
+transfer_manager = boto3.client('s3').transfer
 bucket_name = "development-wenroll"
+original = folder_name + ".mp4"
 try:
     s3.upload_file(folder_name + "_480p.mp4", bucket_name, folder_name + "/" + folder_name + "_480p.mp4")
     s3.upload_file(folder_name + "_720p.mp4", bucket_name, folder_name + "/" + folder_name + "_720p.mp4")
@@ -16,7 +18,7 @@ try:
     s3.upload_file(folder_name + "_720p.ts", bucket_name, folder_name + "/" + folder_name + "_720p.ts")
     s3.upload_file(folder_name + "_1080p.ts", bucket_name, folder_name + "/" + folder_name + "_1080p.ts")
     s3.upload_file(folder_name + "_playlist.m3u8", bucket_name, folder_name + "/" + folder_name + "_playlist.m3u8")
-    s3.delete_object(Bucket=bucket_name, Key=folder_name + ".mp4")
+    transfer_manager.remove(bucket=bucket_name, key=original)
 except Exception as e:
     print(f"Error occurred while running upload_file: {e}")
 try:
