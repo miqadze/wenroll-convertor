@@ -17,13 +17,7 @@ try:
     s3.upload_file(folder_name + "_720p.ts", bucket_name, folder_name + "/" + folder_name + "_720p.ts")
     s3.upload_file(folder_name + "_1080p.ts", bucket_name, folder_name + "/" + folder_name + "_1080p.ts")
     s3.upload_file(folder_name + "_playlist.m3u8", bucket_name, folder_name + "/" + folder_name + "_playlist.m3u8")
-    result = subprocess.run(['aws', 's3', 'rm', 's3://development-wenroll/' + folder_name + '.mp4', '--recursive'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-    print(result.stdout)
-    print(result.stderr)
-    if result.returncode == 0:
-        print('Command completed successfully')
-    else:
-        print('Command failed')
+    subprocess.run(['aws', 's3', 'rm', 's3://development-wenroll/' + folder_name + '.mp4', '--recursive'])
 except Exception as e:
     print(f"Error occurred while running upload_file: {e}")
 try:
