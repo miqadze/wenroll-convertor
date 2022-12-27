@@ -5,9 +5,7 @@ import pymongo
 import subprocess
 folder_name = sys.argv[1]
 s3 = boto3.client('s3')
-transfer_manager = boto3.client('s3').transfer
 bucket_name = "development-wenroll"
-original = folder_name + ".mp4"
 try:
     s3.upload_file(folder_name + "_480p.mp4", bucket_name, folder_name + "/" + folder_name + "_480p.mp4")
     s3.upload_file(folder_name + "_720p.mp4", bucket_name, folder_name + "/" + folder_name + "_720p.mp4")
@@ -19,7 +17,7 @@ try:
     s3.upload_file(folder_name + "_720p.ts", bucket_name, folder_name + "/" + folder_name + "_720p.ts")
     s3.upload_file(folder_name + "_1080p.ts", bucket_name, folder_name + "/" + folder_name + "_1080p.ts")
     s3.upload_file(folder_name + "_playlist.m3u8", bucket_name, folder_name + "/" + folder_name + "_playlist.m3u8")
-    result = subprocess.run(['aws', 's3', 'rm', 's3://development-wenroll/' + folder_name, '--recursive'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+    result = subprocess.run(['aws', 's3', 'rm', 's3://development-wenroll/' + folder_name + '.mp4', '--recursive'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
     print(result.stdout)
     print(result.stderr)
     if result.returncode == 0:
