@@ -23,7 +23,7 @@ try:
     collection = db["videos"]
     doc = collection.find_one({"name": folder_name})
     for link in doc['links']:
-        link["converted"] = true
+        link["converted"] = True
     collection.replace_one({"_id": doc["_id"]}, doc)
     client.close()
 except Exception as e:
