@@ -12,7 +12,7 @@ except Exception as e:
    print(f"Error occured while running jpeg generation: {e}")
 s3 = boto3.client('s3')
 try:
-    s3.upload_file(folder_name + "_thumbnail.jpg", "test-wenroll", folder_name + "/" + folder_name + "_thumbnail.jpg")
+    s3.upload_file(folder_name + "_thumbnail.jpg", "development-wenroll", folder_name + "/" + folder_name + "_thumbnail.jpg")
 except Exception as e:
     print(f"Error occurred while running upload_file(jpeg): {e}")
 try:
