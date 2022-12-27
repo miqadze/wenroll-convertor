@@ -2,9 +2,7 @@ import sys
 import boto3
 import os
 import pymongo
-
 folder_name = sys.argv[1]
-
 s3 = boto3.client('s3')
 try:
     s3.upload_file(folder_name + "_480p.mp4", "courses.wenroll.com/development/", folder_name + "/" + folder_name + "_480p.mp4")
@@ -30,7 +28,6 @@ try:
     client.close()
 except Exception as e:
     print(f"Error occured while writing in database: {e}")
-
 os.remove(folder_name + "_480p.mp4")
 os.remove(folder_name + "_720p.mp4")
 os.remove(folder_name + "_1080p.mp4")
