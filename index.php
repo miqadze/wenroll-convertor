@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['video_name'])) {
     $video_name = $_GET['video_name'];
-    $bucket_name = "development-wenroll";
+    $bucket_name = "production-wenroll";
     $url = "https://s3.eu-central-1.amazonaws.com/$bucket_name/$video_name";
     $content = @file_get_contents($url);
     if ($content === false) {
