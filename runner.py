@@ -16,7 +16,7 @@ def handle_request():
         else:
             with open(video_name, 'wb') as f:
                 f.write(content)
-            subprocess.run(["/usr/bin/python3", "convert.py", video_name])
+            subprocess.Popen(["/usr/bin/python3", "convert.py", video_name])
             return "Process started", 200
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
