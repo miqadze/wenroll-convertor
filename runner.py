@@ -1,5 +1,6 @@
 from flask import Flask, request
 import subprocess
+import requests
 
 app = Flask(__name__)
 
@@ -15,8 +16,7 @@ def handle_request():
         else:
             with open(video_name, 'wb') as f:
                 f.write(content)
-            subprocess.run(["python3", "convert.py", video_name])
+            subprocess.run(["/usr/bin/python3", "convert.py", video_name])
             return "Process started", 200
-#test
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
