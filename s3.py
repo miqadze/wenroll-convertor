@@ -5,7 +5,7 @@ import pymongo
 import subprocess
 folder_name = sys.argv[1]
 s3 = boto3.client('s3')
-bucket_name = "production-wenroll"
+bucket_name = "development-wenroll"
 try:
     s3.upload_file(folder_name + "_480p.mp4", bucket_name, folder_name + "/" + folder_name + "_480p.mp4")
     s3.upload_file(folder_name + "_720p.mp4", bucket_name, folder_name + "/" + folder_name + "_720p.mp4")
@@ -18,7 +18,7 @@ try:
     s3.upload_file(folder_name + "_1080p.ts", bucket_name, folder_name + "/" + folder_name + "_1080p.ts")
     s3.upload_file(folder_name + "_playlist.m3u8", bucket_name, folder_name + "/" + folder_name + "_playlist.m3u8")
     s3.upload_file(folder_name + "_compressed.mp4", bucket_name, folder_name + "/" + folder_name + ".mp4")
-    subprocess.run(['aws', 's3', 'rm', 's3://production-wenroll/' + folder_name + '.mp4', '--recursive'])
+    subprocess.run(['aws', 's3', 'rm', 's3://development-wenroll/' + folder_name + '.mp4', '--recursive'])
 except Exception as e:
     print(f"Error occurred while running upload_file: {e}")
 try:
