@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/', methods=['POST'])
+@app.route('/', methods=['PUT'])
 
 def handle_request():
     if 'video_key' in request.args and 'file' in request.files:
@@ -17,7 +17,7 @@ def handle_request():
         return response
     else:
         return "Error: Invalid request", 400
-
+#
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
