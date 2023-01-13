@@ -3,7 +3,6 @@ import subprocess
 import requests
 from flask_cors import CORS
 app = Flask(__name__)
-app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024 * 1024  # 10 GB
 CORS(app)
 
 @app.route('/', methods=['POST'])
