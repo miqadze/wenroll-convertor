@@ -1,1672 +1,0 @@
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-[pid: 79265|app: 0|req: 7/9] 80.241.249.50 () {36 vars in 845 bytes} [Thu Jan  5 15:11:49 2023] GET /?video_name=course-f09cb84b-4106-418e-9569-c625b19b7435.mp4 => generated 15 bytes in 476 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435.mp4':
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    creation_time   : 2017-03-30T10:11:34.000000Z
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 4446 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 4443 kb/s, 25 fps, 25 tbr, 25 tbn, 50 tbc (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : AVC Coding
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435.mp4':
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    creation_time   : 2017-03-30T10:11:34.000000Z
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 4446 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 4443 kb/s, 25 fps, 25 tbr, 25 tbn, 50 tbc (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : AVC Coding
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-[libx264 @ 0x56463a873b40] using SAR=1/1
-[libx264 @ 0x56463a873b40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x56463a873b40] profile High, level 4.0, 4:2:0, 8-bit
-[libx264 @ 0x56463a873b40] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:-1:-1 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.15 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-3 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=25.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 12800 tbn (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    [libx264 @ 0x55841fbecb40] using SAR=1/1
-[libx264 @ 0x55841fbecb40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x55841fbecb40] profile High, level 4.0, 4:2:0, 8-bit
-[libx264 @ 0x55841fbecb40] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:-1:-1 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.15 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-3 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=25.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 12800 tbn (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    [pid: 79264|app: 0|req: 3/10] 80.241.249.50 () {36 vars in 749 bytes} [Thu Jan  5 15:11:49 2023] GET /favicon.ico => generated 232 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
-frame=   17 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   17 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   40 fps= 36 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   39 fps= 35 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   47 fps= 23 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   47 fps= 24 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   50 fps= 18 q=30.0 size=       0kB time=00:00:00.00 bitrate=4923.1kbits/s speed=2.76e-05x    frame=   51 fps= 19 q=30.0 size=       0kB time=00:00:00.04 bitrate=   9.6kbits/s speed=0.0152x    frame=   53 fps= 16 q=30.0 size=       0kB time=00:00:00.12 bitrate=   3.2kbits/s speed=0.036x    frame=   53 fps= 15 q=30.0 size=       0kB time=00:00:00.12 bitrate=   3.2kbits/s speed=0.0351x    frame=   57 fps= 14 q=30.0 size=       0kB time=00:00:00.28 bitrate=   1.4kbits/s speed=0.0691x    frame=   57 fps= 13 q=30.0 size=       0kB time=00:00:00.28 bitrate=   1.4kbits/s speed=0.0617x    frame=   60 fps= 13 q=30.0 size=       0kB time=00:00:00.40 bitrate=   1.0kbits/s speed=0.0839x    frame=   60 fps= 11 q=30.0 size=       0kB time=00:00:00.40 bitrate=   1.0kbits/s speed=0.0742x    frame=   64 fps= 12 q=30.0 size=       0kB time=00:00:00.56 bitrate=   0.7kbits/s speed=0.106x    frame=   63 fps= 11 q=30.0 size=       0kB time=00:00:00.52 bitrate=   0.7kbits/s speed=0.0874x    frame=   66 fps= 11 q=30.0 size=       0kB time=00:00:00.64 bitrate=   0.6kbits/s speed=0.106x    frame=   66 fps=9.8 q=30.0 size=       0kB time=00:00:00.64 bitrate=   0.6kbits/s speed=0.0949x    frame=   70 fps= 10 q=30.0 size=     256kB time=00:00:00.80 bitrate=2621.7kbits/s speed=0.117x    frame=   73 fps=9.8 q=30.0 size=     256kB time=00:00:00.92 bitrate=2279.7kbits/s speed=0.124x    frame=   70 fps=9.1 q=30.0 size=     256kB time=00:00:00.80 bitrate=2621.7kbits/s speed=0.104x    frame=   73 fps=8.7 q=30.0 size=     256kB time=00:00:00.92 bitrate=2279.7kbits/s speed=0.11x    frame=   77 fps=9.2 q=30.0 size=     256kB time=00:00:01.08 bitrate=1942.0kbits/s speed=0.129x    frame=   77 fps=8.4 q=30.0 size=     256kB time=00:00:01.08 bitrate=1942.0kbits/s speed=0.117x    frame=   81 fps=8.7 q=30.0 size=     256kB time=00:00:01.24 bitrate=1691.5kbits/s speed=0.133x    frame=   83 fps=8.4 q=30.0 size=     256kB time=00:00:01.32 bitrate=1588.9kbits/s speed=0.133x    frame=   81 fps=8.1 q=30.0 size=     256kB time=00:00:01.24 bitrate=1691.5kbits/s speed=0.124x    frame=   83 fps=7.8 q=30.0 size=     256kB time=00:00:01.32 bitrate=1588.9kbits/s speed=0.124x    frame=   87 fps=7.9 q=30.0 size=     256kB time=00:00:01.48 bitrate=1417.2kbits/s speed=0.135x    frame=   87 fps=7.5 q=30.0 size=     256kB time=00:00:01.48 bitrate=1417.2kbits/s speed=0.128x    frame=   90 fps=7.7 q=30.0 size=     512kB time=00:00:01.60 bitrate=2621.6kbits/s speed=0.137x    frame=   90 fps=7.4 q=30.0 size=     512kB time=00:00:01.60 bitrate=2621.6kbits/s speed=0.132x    frame=   93 fps=7.4 q=30.0 size=     512kB time=00:00:01.72 bitrate=2438.7kbits/s speed=0.136x    frame=   93 fps=7.2 q=30.0 size=     512kB time=00:00:01.72 bitrate=2438.7kbits/s speed=0.134x    frame=   95 fps=7.2 q=30.0 size=     512kB time=00:00:01.80 bitrate=2330.3kbits/s speed=0.137x    frame=   97 fps=7.1 q=30.0 size=     512kB time=00:00:01.88 bitrate=2231.1kbits/s speed=0.137x    frame=   97 fps=6.9 q=30.0 size=     512kB time=00:00:01.88 bitrate=2231.1kbits/s speed=0.134x    frame=  100 fps=6.9 q=30.0 size=     512kB time=00:00:02.00 bitrate=2097.3kbits/s speed=0.138x    frame=  100 fps=6.8 q=30.0 size=     512kB time=00:00:02.00 bitrate=2097.3kbits/s speed=0.136x    frame=  103 fps=6.9 q=30.0 size=     512kB time=00:00:02.12 bitrate=1978.6kbits/s speed=0.141x    frame=  106 fps=6.8 q=30.0 size=     512kB time=00:00:02.24 bitrate=1872.6kbits/s speed=0.144x    frame=  104 fps=6.7 q=30.0 size=     512kB time=00:00:02.16 bitrate=1941.9kbits/s speed=0.139x    frame=  108 fps=6.6 q=30.0 size=     512kB time=00:00:02.32 bitrate=1808.0kbits/s speed=0.142x    frame=  108 fps=6.6 q=30.0 size=     512kB time=00:00:02.32 bitrate=1808.0kbits/s speed=0.142x    frame=  112 fps=6.6 q=30.0 size=     768kB time=00:00:02.48 bitrate=2537.0kbits/s speed=0.146x    frame=  112 fps=6.5 q=30.0 size=     768kB time=00:00:02.48 bitrate=2537.0kbits/s speed=0.144x    frame=  115 fps=6.5 q=30.0 size=     768kB time=00:00:02.60 bitrate=2419.9kbits/s speed=0.146x    frame=  115 fps=6.4 q=30.0 size=     768kB time=00:00:02.60 bitrate=2419.9kbits/s speed=0.145x    frame=  119 fps=6.4 q=30.0 size=     768kB time=00:00:02.76 bitrate=2279.6kbits/s speed=0.147x    frame=  119 fps=6.3 q=30.0 size=     768kB time=00:00:02.76 bitrate=2279.6kbits/s speed=0.147x    frame=  123 fps=6.3 q=30.0 size=     768kB time=00:00:02.92 bitrate=2154.7kbits/s speed=0.149x    frame=  123 fps=6.2 q=30.0 size=     768kB time=00:00:02.92 bitrate=2154.7kbits/s speed=0.147x    frame=  126 fps=6.3 q=30.0 size=     768kB time=00:00:03.04 bitrate=2069.6kbits/s speed=0.151x    frame=  127 fps=6.0 q=30.0 size=     768kB time=00:00:03.08 bitrate=2042.8kbits/s speed=0.147x    frame=  130 fps=6.3 q=30.0 size=     768kB time=00:00:03.20 bitrate=1966.2kbits/s speed=0.154x    frame=  132 fps=6.2 q=30.0 size=     768kB time=00:00:03.28 bitrate=1918.2kbits/s speed=0.154x    frame=  130 fps=6.0 q=30.0 size=     768kB time=00:00:03.20 bitrate=1966.2kbits/s speed=0.149x    frame=  135 fps=6.1 q=30.0 size=    1024kB time=00:00:03.40 bitrate=2467.3kbits/s speed=0.154x    frame=  134 fps=6.0 q=30.0 size=    1024kB time=00:00:03.36 bitrate=2496.7kbits/s speed=0.151x    frame=  136 fps=6.0 q=30.0 size=    1024kB time=00:00:03.44 bitrate=2438.6kbits/s speed=0.151x    frame=  139 fps=6.0 q=30.0 size=    1024kB time=00:00:03.56 bitrate=2356.4kbits/s speed=0.154x    frame=  139 fps=5.9 q=30.0 size=    1024kB time=00:00:03.56 bitrate=2356.4kbits/s speed=0.152x    frame=  143 fps=5.9 q=30.0 size=    1024kB time=00:00:03.72 bitrate=2255.1kbits/s speed=0.154x    frame=  143 fps=5.9 q=30.0 size=    1024kB time=00:00:03.72 bitrate=2255.1kbits/s speed=0.153x    frame=  147 fps=5.9 q=30.0 size=    1024kB time=00:00:03.88 bitrate=2162.1kbits/s speed=0.157x    frame=  147 fps=5.8 q=30.0 size=    1024kB time=00:00:03.88 bitrate=2162.1kbits/s speed=0.154x    frame=  151 fps=5.8 q=30.0 size=    1024kB time=00:00:04.04 bitrate=2076.4kbits/s speed=0.156x    frame=  151 fps=5.8 q=30.0 size=    1024kB time=00:00:04.04 bitrate=2076.4kbits/s speed=0.156x    frame=  154 fps=5.8 q=30.0 size=    1024kB time=00:00:04.16 bitrate=2016.5kbits/s speed=0.158x    frame=  155 fps=5.8 q=30.0 size=    1024kB time=00:00:04.20 bitrate=1997.3kbits/s speed=0.158x    frame=  157 fps=5.8 q=30.0 size=    1024kB time=00:00:04.28 bitrate=1960.0kbits/s speed=0.159x    frame=  159 fps=5.8 q=30.0 size=    1280kB time=00:00:04.36 bitrate=2405.0kbits/s speed=0.158x    frame=  159 fps=5.7 q=30.0 size=    1280kB time=00:00:04.36 bitrate=2405.0kbits/s speed=0.157x    frame=  162 fps=5.8 q=30.0 size=    1280kB time=00:00:04.48 bitrate=2340.6kbits/s speed=0.159x    frame=  163 fps=5.7 q=30.0 size=    1280kB time=00:00:04.52 bitrate=2319.9kbits/s speed=0.158x    frame=  166 fps=5.8 q=30.0 size=    1280kB time=00:00:04.64 bitrate=2259.9kbits/s speed=0.161x    frame=  167 fps=5.7 q=30.0 size=    1280kB time=00:00:04.68 bitrate=2240.6kbits/s speed=0.159x    frame=  167 fps=5.7 q=30.0 size=    1280kB time=00:00:04.68 bitrate=2240.6kbits/s speed=0.16x    frame=  171 fps=5.7 q=30.0 size=    1280kB time=00:00:04.84 bitrate=2166.5kbits/s speed=0.16x    frame=  171 fps=5.6 q=30.0 size=    1280kB time=00:00:04.84 bitrate=2166.5kbits/s speed=0.159x    frame=  174 fps=5.7 q=30.0 size=    1280kB time=00:00:04.96 bitrate=2114.1kbits/s speed=0.161x    frame=  175 fps=5.6 q=30.0 size=    1280kB time=00:00:05.00 bitrate=2097.2kbits/s speed=0.16x    frame=  178 fps=5.7 q=30.0 size=    1280kB time=00:00:05.12 bitrate=2048.0kbits/s speed=0.164x    frame=  180 fps=5.6 q=30.0 size=    1280kB time=00:00:05.20 bitrate=2016.5kbits/s speed=0.163x    frame=  179 fps=5.6 q=30.0 size=    1280kB time=00:00:05.16 bitrate=2032.2kbits/s speed=0.16x    frame=  183 fps=5.6 q=30.0 size=    1280kB time=00:00:05.32 bitrate=1971.1kbits/s speed=0.164x    frame=  182 fps=5.6 q=30.0 size=    1280kB time=00:00:05.28 bitrate=1986.0kbits/s speed=0.161x    frame=  184 fps=5.5 q=30.0 size=    1536kB time=00:00:05.36 bitrate=2347.6kbits/s speed=0.161x    frame=  187 fps=5.6 q=30.0 size=    1536kB time=00:00:05.48 bitrate=2296.2kbits/s speed=0.164x    frame=  187 fps=5.5 q=30.0 size=    1536kB time=00:00:05.48 bitrate=2296.2kbits/s speed=0.161x    frame=  191 fps=5.6 q=30.0 size=    1536kB time=00:00:05.64 bitrate=2231.0kbits/s speed=0.164x    frame=  190 fps=5.5 q=30.0 size=    1536kB time=00:00:05.60 bitrate=2247.0kbits/s speed=0.162x    frame=  193 fps=5.5 q=30.0 size=    1536kB time=00:00:05.72 bitrate=2199.8kbits/s speed=0.163x    frame=  195 fps=5.5 q=30.0 size=    1536kB time=00:00:05.80 bitrate=2169.5kbits/s speed=0.164x    frame=  195 fps=5.4 q=30.0 size=    1536kB time=00:00:05.80 bitrate=2169.5kbits/s speed=0.162x    frame=  199 fps=5.5 q=30.0 size=    1536kB time=00:00:05.96 bitrate=2111.3kbits/s speed=0.166x    frame=  202 fps=5.5 q=30.0 size=    1536kB time=00:00:06.08 bitrate=2069.6kbits/s speed=0.167x    frame=  199 fps=5.4 q=30.0 size=    1536kB time=00:00:05.96 bitrate=2111.3kbits/s speed=0.162x    frame=  205 fps=5.5 q=30.0 size=    1536kB time=00:00:06.20 bitrate=2029.5kbits/s speed=0.167x    frame=  203 fps=5.4 q=30.0 size=    1536kB time=00:00:06.12 bitrate=2056.1kbits/s speed=0.163x    frame=  207 fps=5.5 q=30.0 size=    1536kB time=00:00:06.28 bitrate=2003.7kbits/s speed=0.167x    frame=  207 fps=5.4 q=30.0 size=    1536kB time=00:00:06.28 bitrate=2003.7kbits/s speed=0.164x    frame=  211 fps=5.4 q=30.0 size=    1792kB time=00:00:06.44 bitrate=2279.5kbits/s speed=0.166x    frame=  211 fps=5.4 q=30.0 size=    1792kB time=00:00:06.44 bitrate=2279.5kbits/s speed=0.164x    frame=  215 fps=5.4 q=30.0 size=    1792kB time=00:00:06.60 bitrate=2224.3kbits/s speed=0.166x    frame=  215 fps=5.4 q=30.0 size=    1792kB time=00:00:06.60 bitrate=2224.3kbits/s speed=0.164x    frame=  219 fps=5.4 q=30.0 size=    1792kB time=00:00:06.76 bitrate=2171.6kbits/s speed=0.167x    frame=  219 fps=5.3 q=30.0 size=    1792kB time=00:00:06.76 bitrate=2171.6kbits/s speed=0.165x    frame=  223 fps=5.4 q=30.0 size=    1792kB time=00:00:06.92 bitrate=2121.4kbits/s speed=0.167x    frame=  223 fps=5.4 q=30.0 size=    1792kB time=00:00:06.92 bitrate=2121.4kbits/s speed=0.166x    frame=  227 fps=5.3 q=30.0 size=    1792kB time=00:00:07.08 bitrate=2073.5kbits/s speed=0.167x    frame=  227 fps=5.3 q=30.0 size=    1792kB time=00:00:07.08 bitrate=2073.5kbits/s speed=0.166x    frame=  230 fps=5.3 q=30.0 size=    1792kB time=00:00:07.20 bitrate=2038.9kbits/s speed=0.167x    frame=  230 fps=5.3 q=30.0 size=    1792kB time=00:00:07.20 bitrate=2038.9kbits/s speed=0.167x    frame=  233 fps=5.3 q=30.0 size=    1792kB time=00:00:07.32 bitrate=2005.5kbits/s speed=0.168x    frame=  233 fps=5.3 q=30.0 size=    1792kB time=00:00:07.32 bitrate=2005.5kbits/s speed=0.167x    frame=  235 fps=5.3 q=30.0 size=    2048kB time=00:00:07.40 bitrate=2267.2kbits/s speed=0.167x    frame=  235 fps=5.3 q=30.0 size=    2048kB time=00:00:07.40 bitrate=2267.2kbits/s speed=0.166x    frame=  239 fps=5.3 q=30.0 size=    2048kB time=00:00:07.56 bitrate=2219.2kbits/s speed=0.168x    frame=  239 fps=5.3 q=30.0 size=    2048kB time=00:00:07.56 bitrate=2219.2kbits/s speed=0.166x    frame=  243 fps=5.3 q=30.0 size=    2048kB time=00:00:07.72 bitrate=2173.2kbits/s speed=0.168x    frame=  243 fps=5.2 q=30.0 size=    2048kB time=00:00:07.72 bitrate=2173.2kbits/s speed=0.166x    frame=  247 fps=5.3 q=30.0 size=    2048kB time=00:00:07.88 bitrate=2129.1kbits/s speed=0.168x    frame=  247 fps=5.2 q=30.0 size=    2048kB time=00:00:07.88 bitrate=2129.1kbits/s speed=0.166x    frame=  251 fps=5.3 q=30.0 size=    2048kB time=00:00:08.04 bitrate=2086.7kbits/s speed=0.169x    frame=  250 fps=5.2 q=30.0 size=    2048kB time=00:00:08.00 bitrate=2097.2kbits/s speed=0.167x    frame=  255 fps=5.3 q=30.0 size=    2048kB time=00:00:08.20 bitrate=2046.0kbits/s speed=0.169x    frame=  254 fps=5.2 q=30.0 size=    2048kB time=00:00:08.16 bitrate=2056.1kbits/s speed=0.168x    frame=  255 fps=5.2 q=30.0 size=    2048kB time=00:00:08.20 bitrate=2046.0kbits/s speed=0.167x    frame=  259 fps=5.2 q=30.0 size=    2304kB time=00:00:08.36 bitrate=2257.7kbits/s speed=0.169x    frame=  263 fps=5.3 q=30.0 size=    2304kB time=00:00:08.52 bitrate=2215.3kbits/s speed=0.17x    frame=  259 fps=5.2 q=30.0 size=    2304kB time=00:00:08.36 bitrate=2257.7kbits/s speed=0.167x    frame=  263 fps=5.2 q=30.0 size=    2304kB time=00:00:08.52 bitrate=2215.3kbits/s speed=0.167x    frame=  267 fps=5.2 q=30.0 size=    2304kB time=00:00:08.68 bitrate=2174.5kbits/s speed=0.17x    frame=  266 fps=5.2 q=30.0 size=    2304kB time=00:00:08.64 bitrate=2184.6kbits/s speed=0.168x    frame=  271 fps=5.2 q=30.0 size=    2304kB time=00:00:08.84 bitrate=2135.1kbits/s speed=0.171x    frame=  268 fps=5.1 q=30.0 size=    2304kB time=00:00:08.72 bitrate=2164.5kbits/s speed=0.167x    frame=  274 fps=5.2 q=30.0 size=    2304kB time=00:00:08.96 bitrate=2106.5kbits/s speed=0.171x    frame=  271 fps=5.1 q=30.0 size=    2304kB time=00:00:08.84 bitrate=2135.1kbits/s speed=0.168x    frame=  274 fps=5.1 q=30.0 size=    2304kB time=00:00:08.96 bitrate=2106.5kbits/s speed=0.168x    frame=  278 fps=5.2 q=30.0 size=    2304kB time=00:00:09.12 bitrate=2069.6kbits/s speed=0.171x    frame=  282 fps=5.2 q=30.0 size=    2560kB time=00:00:09.28 bitrate=2259.9kbits/s speed=0.171x    frame=  277 fps=5.1 q=30.0 size=    2304kB time=00:00:09.08 bitrate=2078.7kbits/s speed=0.169x    frame=  278 fps=5.1 q=30.0 size=    2304kB time=00:00:09.12 bitrate=2069.6kbits/s speed=0.168x    frame=  286 fps=5.2 q=30.0 size=    2560kB time=00:00:09.44 bitrate=2221.6kbits/s speed=0.172x    frame=  282 fps=5.1 q=30.0 size=    2560kB time=00:00:09.28 bitrate=2259.9kbits/s speed=0.167x    frame=  290 fps=5.2 q=30.0 size=    2560kB time=00:00:09.60 bitrate=2184.6kbits/s speed=0.173x    frame=  285 fps=5.1 q=30.0 size=    2560kB time=00:00:09.40 bitrate=2231.0kbits/s speed=0.168x    frame=  293 fps=5.2 q=30.0 size=    2560kB time=00:00:09.72 bitrate=2157.6kbits/s speed=0.172x    frame=  287 fps=5.1 q=30.0 size=    2560kB time=00:00:09.48 bitrate=2212.2kbits/s speed=0.167x    frame=  290 fps=5.1 q=30.0 size=    2560kB time=00:00:09.60 bitrate=2184.6kbits/s speed=0.167x    frame=  293 fps=5.1 q=30.0 size=    2560kB time=00:00:09.72 bitrate=2157.6kbits/s speed=0.168x    frame=  293 fps=4.5 q=-1.0 Lsize=    3202kB time=00:00:11.60 bitrate=2261.1kbits/s speed=0.179x    
-video:3197kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.134507%
-[libx264 @ 0x55841fbecb40] frame I:2     Avg QP:21.58  size: 39782
-[libx264 @ 0x55841fbecb40] frame P:77    Avg QP:22.96  size: 21713
-[libx264 @ 0x55841fbecb40] frame B:214   Avg QP:24.26  size:  7112
-[libx264 @ 0x55841fbecb40] consecutive B-frames:  1.0%  2.0%  8.2% 88.7%
-[libx264 @ 0x55841fbecb40] mb I  I16..4: 43.1% 52.6%  4.4%
-[libx264 @ 0x55841fbecb40] mb P  I16..4:  9.2%  8.5%  0.1%  P16..4: 54.8%  5.5%  2.9%  0.0%  0.0%    skip:18.9%
-[libx264 @ 0x55841fbecb40] mb B  I16..4:  0.5%  0.4%  0.0%  B16..8: 29.4%  1.0%  0.1%  direct: 8.7%  skip:60.0%  L0:48.8% L1:50.3% BI: 0.9%
-[libx264 @ 0x55841fbecb40] 8x8 transform intra:47.7% inter:96.3%
-[libx264 @ 0x55841fbecb40] coded y,uvDC,uvAC intra: 18.3% 69.2% 8.8% inter: 5.7% 29.6% 0.0%
-[libx264 @ 0x55841fbecb40] i16 v,h,dc,p: 37% 24%  7% 32%
-[libx264 @ 0x55841fbecb40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 14% 37%  3%  5%  6%  5%  4%  3%
-[libx264 @ 0x55841fbecb40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 30% 11%  3%  9%  8%  7%  4%  2%
-[libx264 @ 0x55841fbecb40] i8c dc,h,v,p: 55% 21% 22%  2%
-[libx264 @ 0x55841fbecb40] Weighted P-Frames: Y:1.3% UV:0.0%
-[libx264 @ 0x55841fbecb40] ref P L0: 57.2%  5.9% 25.8% 10.9%  0.2%
-[libx264 @ 0x55841fbecb40] ref B L0: 86.7% 10.4%  2.9%
-[libx264 @ 0x55841fbecb40] ref B L1: 95.3%  4.7%
-[libx264 @ 0x55841fbecb40] kb/s:2234.46
-frame=  293 fps=4.5 q=-1.0 Lsize=    3202kB time=00:00:11.60 bitrate=2261.1kbits/s speed=0.178x    
-video:3197kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.134507%
-[libx264 @ 0x56463a873b40] frame I:2     Avg QP:21.58  size: 39782
-[libx264 @ 0x56463a873b40] frame P:77    Avg QP:22.96  size: 21713
-[libx264 @ 0x56463a873b40] frame B:214   Avg QP:24.26  size:  7112
-[libx264 @ 0x56463a873b40] consecutive B-frames:  1.0%  2.0%  8.2% 88.7%
-[libx264 @ 0x56463a873b40] mb I  I16..4: 43.1% 52.6%  4.4%
-[libx264 @ 0x56463a873b40] mb P  I16..4:  9.2%  8.5%  0.1%  P16..4: 54.8%  5.5%  2.9%  0.0%  0.0%    skip:18.9%
-[libx264 @ 0x56463a873b40] mb B  I16..4:  0.5%  0.4%  0.0%  B16..8: 29.4%  1.0%  0.1%  direct: 8.7%  skip:60.0%  L0:48.8% L1:50.3% BI: 0.9%
-[libx264 @ 0x56463a873b40] 8x8 transform intra:47.7% inter:96.3%
-[libx264 @ 0x56463a873b40] coded y,uvDC,uvAC intra: 18.3% 69.2% 8.8% inter: 5.7% 29.6% 0.0%
-[libx264 @ 0x56463a873b40] i16 v,h,dc,p: 37% 24%  7% 32%
-[libx264 @ 0x56463a873b40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 14% 37%  3%  5%  6%  5%  4%  3%
-[libx264 @ 0x56463a873b40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 30% 11%  3%  9%  8%  7%  4%  2%
-[libx264 @ 0x56463a873b40] i8c dc,h,v,p: 55% 21% 22%  2%
-[libx264 @ 0x56463a873b40] Weighted P-Frames: Y:1.3% UV:0.0%
-[libx264 @ 0x56463a873b40] ref P L0: 57.2%  5.9% 25.8% 10.9%  0.2%
-[libx264 @ 0x56463a873b40] ref B L0: 86.7% 10.4%  2.9%
-[libx264 @ 0x56463a873b40] ref B L1: 95.3%  4.7%
-[libx264 @ 0x56463a873b40] kb/s:2234.46
-...brutally killing workers...
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435.mp4':
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    creation_time   : 2017-03-30T10:11:34.000000Z
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 4446 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 4443 kb/s, 25 fps, 25 tbr, 25 tbn, 50 tbc (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : AVC Coding
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
-Press [q] to stop, [?] for help
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-File 'course-f09cb84b-4106-418e-9569-c625b19b7435_480p.mp4' already exists. Overwrite? [y/N] Not overwriting - exiting
-[swscaler @ 0x55704c6886c0] deprecated pixel format used, make sure you did set range correctly
-[libx264 @ 0x55e57e8491c0] using SAR=640/639
-[libx264 @ 0x55e57e8491c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x55e57e8491c0] profile High, level 3.0, 4:2:0, 8-bit
-[libx264 @ 0x55e57e8491c0] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_480p.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 852x480 [SAR 640:639 DAR 16:9], q=2-31, 25 fps, 12800 tbn (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    Exception in thread Thread-1 (process_video):
-Traceback (most recent call last):
-  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.10/threading.py", line 953, in run
-    self._target(*self._args, **self._kwargs)
-  File "/var/www/html/./runner.py", line 33, in process_video
-  File "/usr/local/lib/python3.10/dist-packages/boto3/__init__.py", line 92, in client
-    return _get_default_session().client(*args, **kwargs)
-  File "/usr/local/lib/python3.10/dist-packages/boto3/session.py", line 299, in client
-    return self._session.create_client(
-  File "/usr/local/lib/python3.10/dist-packages/botocore/session.py", line 976, in create_client
-    client = client_creator.create_client(
-  File "/usr/local/lib/python3.10/dist-packages/botocore/client.py", line 141, in create_client
-    cls = self._create_client_class(service_name, service_model)
-  File "/usr/local/lib/python3.10/dist-packages/botocore/client.py", line 194, in _create_client_class
-    self._event_emitter.emit(
-  File "/usr/local/lib/python3.10/dist-packages/botocore/hooks.py", line 412, in emit
-    return self._emitter.emit(aliased_event_name, **kwargs)
-  File "/usr/local/lib/python3.10/dist-packages/botocore/hooks.py", line 256, in emit
-    return self._emit(event_name, kwargs)
-  File "/usr/local/lib/python3.10/dist-packages/botocore/hooks.py", line 239, in _emit
-    response = handler(**kwargs)
-  File "/usr/local/lib/python3.10/dist-packages/boto3/utils.py", line 65, in _handler
-    module = import_module(module)
-  File "/usr/local/lib/python3.10/dist-packages/boto3/utils.py", line 56, in import_module
-    __import__(name)
-  File "/usr/local/lib/python3.10/dist-packages/boto3/s3/inject.py", line 16, in <module>
-    from boto3.s3.transfer import (
-  File "/usr/local/lib/python3.10/dist-packages/boto3/s3/transfer.py", line 128, in <module>
-    from s3transfer.exceptions import (
-  File "/usr/local/lib/python3.10/dist-packages/s3transfer/__init__.py", line 373, in <module>
-    class MultipartUploader:
-  File "/usr/local/lib/python3.10/dist-packages/s3transfer/__init__.py", line 388, in MultipartUploader
-    executor_cls=concurrent.futures.ThreadPoolExecutor,
-  File "/usr/lib/python3.10/concurrent/futures/__init__.py", line 49, in __getattr__
-    from .thread import ThreadPoolExecutor as te
-  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 37, in <module>
-    threading._register_atexit(_python_exit)
-  File "/usr/lib/python3.10/threading.py", line 1504, in _register_atexit
-    raise RuntimeError("can't register atexit after shutdown")
-RuntimeError: can't register atexit after shutdown
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435.mp4':
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    creation_time   : 2017-03-30T10:11:34.000000Z
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 4446 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 4443 kb/s, 25 fps, 25 tbr, 25 tbn, 50 tbc (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : AVC Coding
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-[libx264 @ 0x55930b7bb1c0] worker 1 buried after 1 seconds
-using SAR=1/1
-[libx264 @ 0x55930b7bb1c0] frame=   13 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    [mov,mp4,m4a,3gp,3g2,mj2 @ 0x55e57e843680] Packet corrupt (stream = 0, dts = 7680).
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: corrupt input packet in stream 0
-[h264 @ 0x55e57e8fb400] Invalid NAL unit size (19138 > 8966).
-[h264 @ 0x55e57e8fb400] Error splitting the input into NAL units.
-using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55e57e843680] stream 0, offset 0x3a7ec: partial file
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-[libx264 @ 0x55930b7bb1c0] profile High, level 3.1, 4:2:0, 8-bit
-[libx264 @ 0x55930b7bb1c0] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_720p.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 12800 tbn (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    [mov,mp4,m4a,3gp,3g2,mj2 @ 0x55930b7b5680] Packet corrupt (stream = 0, dts = 1536).
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: corrupt input packet in stream 0
-[h264 @ 0x55930b86d400] Invalid NAL unit size (10446 > 8062).
-[h264 @ 0x55930b86d400] Error splitting the input into NAL units.
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55930b7b5680] [mov,mp4,m4a,3gp,3g2,mj2 @ 0x55e57e843680] stream 0, offset 0x3d0c6: partial file
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-stream 0, offset 0x18980: partial file
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-Error while decoding stream #0:0: Invalid data found when processing input
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55e57e843680] stream 0, offset 0x3ebf8: partial file
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55930b7b5680] stream 0, offset 0x1a2e6: partial file
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-Error while decoding stream #0:0: Invalid data found when processing input
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55930b7b5680] stream 0, offset 0x1b9b3: partial file
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-[libx264 @ 0x5628388c6b40] using SAR=1/1
-[libx264 @ 0x5628388c6b40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-worker 2 buried after 1 seconds
-[libx264 @ 0x5628388c6b40] profile High, level 4.0, 4:2:0, 8-bit
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55930b7b5680] [libx264 @ 0x5628388c6b40] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:-1:-1 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.15 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-3 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=25.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 12800 tbn (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    stream 0, offset 0x1f9b2: partial file
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55e57e843680] stream 0, offset 0x46890: partial file
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-frame=   17 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    Output #0, image2, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_thumbnail.jpg':
-worker 3 buried after 2 seconds
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 mjpeg
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.7 q=5.8 size=N/A time=00:00:00.04 bitrate=N/A speed=0.0281x    frame=    1 fps=0.6 q=5.8 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0256x    
-video:51kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
-Exception in thread Thread-4 (process_video):
-Traceback (most recent call last):
-  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.10/threading.py", line 953, in run
-    self._target(*self._args, **self._kwargs)
-  File "/var/www/html/./runner.py", line 34, in process_video
-  File "/usr/local/lib/python3.10/dist-packages/boto3/s3/inject.py", line 143, in upload_file
-    return transfer.upload_file(
-  File "/usr/local/lib/python3.10/dist-packages/boto3/s3/transfer.py", line 288, in upload_file
-    future = self._manager.upload(
-  File "/usr/local/lib/python3.10/dist-packages/s3transfer/manager.py", line 333, in upload
-    return self._submit_transfer(
-  File "/usr/local/lib/python3.10/dist-packages/s3transfer/manager.py", line 528, in _submit_transfer
-    self._submission_executor.submit(
-  File "/usr/local/lib/python3.10/dist-packages/s3transfer/futures.py", line 474, in submit
-    future = ExecutorFuture(self._executor.submit(task))
-  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 169, in submit
-    raise RuntimeError('cannot schedule new futures after '
-RuntimeError: cannot schedule new futures after interpreter shutdown
-frame=   45 fps= 39 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   17 fps=6.9 q=-1.0 Lsize=      43kB time=00:00:00.56 bitrate= 629.9kbits/s speed=0.227x    
-video:42kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.598581%
-[libx264 @ 0x55e57e8491c0] frame I:1     Avg QP:22.23  size: 10124
-[libx264 @ 0x55e57e8491c0] frame P:4     Avg QP:22.67  size:  4156
-[libx264 @ 0x55e57e8491c0] frame B:12    Avg QP:24.41  size:  1296
-[libx264 @ 0x55e57e8491c0] consecutive B-frames:  5.9%  0.0%  0.0% 94.1%
-[libx264 @ 0x55e57e8491c0] mb I  I16..4: 29.4% 59.3% 11.3%
-[libx264 @ 0x55e57e8491c0] mb P  I16..4:  5.4% 15.0%  0.8%  P16..4: 30.3%  5.5%  2.5%  0.0%  0.0%    skip:40.6%
-[libx264 @ 0x55e57e8491c0] mb B  I16..4:  0.1%  0.5%  0.0%  B16..8: 22.3%  3.0%  0.3%  direct: 1.1%  skip:72.7%  L0:39.8% L1:55.4% BI: 4.9%
-[libx264 @ 0x55e57e8491c0] 8x8 transform intra:65.1% inter:97.5%
-[libx264 @ 0x55e57e8491c0] coded y,uvDC,uvAC intra: 46.9% 62.9% 12.6% inter: 5.1% 11.8% 0.0%
-[libx264 @ 0x55e57e8491c0] i16 v,h,dc,p: 42% 24%  3% 30%
-[libx264 @ 0x55e57e8491c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 19% 13%  4%  8%  9%  6%  8%  4%
-[libx264 @ 0x55e57e8491c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 29% 42%  3%  3%  6%  6%  5%  4%  2%
-[libx264 @ 0x55e57e8491c0] i8c dc,h,v,p: 52% 20% 25%  4%
-[libx264 @ 0x55e57e8491c0] Weighted P-Frames: Y:0.0% UV:0.0%
-[libx264 @ 0x55e57e8491c0] ref P L0: 74.6%  6.4% 12.7%  6.3%
-[libx264 @ 0x55e57e8491c0] ref B L0: 94.6%  4.4%  1.0%
-[libx264 @ 0x55e57e8491c0] ref B L1: 97.5%  2.5%
-[libx264 @ 0x55e57e8491c0] kb/s:497.60
-frame=    8 fps=4.0 q=-1.0 Lsize=      43kB time=00:00:00.20 bitrate=1778.2kbits/s dup=3 drop=0 speed= 0.1x    
-video:42kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.288514%
-[libx264 @ 0x55930b7bb1c0] frame I:1     Avg QP:21.91  size: 17038
-[libx264 @ 0x55930b7bb1c0] frame P:2     Avg QP:22.30  size:  8982
-[libx264 @ 0x55930b7bb1c0] frame B:5     Avg QP:21.77  size:  1557
-[libx264 @ 0x55930b7bb1c0] consecutive B-frames: 12.5%  0.0% 37.5% 50.0%
-[libx264 @ 0x55930b7bb1c0] mb I  I16..4: 35.3% 58.2%  6.4%
-[libx264 @ 0x55930b7bb1c0] mb P  I16..4:  8.4% 15.7%  0.6%  P16..4: 32.7%  5.9%  2.4%  0.0%  0.0%    skip:34.3%
-[libx264 @ 0x55930b7bb1c0] mb B  I16..4:  0.2%  0.4%  0.0%  B16..8: 17.0%  1.0%  0.1%  direct: 1.7%  skip:79.6%  L0:39.7% L1:58.8% BI: 1.5%
-[libx264 @ 0x55930b7bb1c0] 8x8 transform intra:60.1% inter:96.5%
-[libx264 @ 0x55930b7bb1c0] coded y,uvDC,uvAC intra: 35.6% 69.7% 14.3% inter: 3.7% 14.0% 0.0%
-[libx264 @ 0x55930b7bb1c0] i16 v,h,dc,p: 43% 24%  4% 29%
-[libx264 @ 0x55930b7bb1c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 33% 21% 15%  3%  6%  7%  5%  5%  3%
-[libx264 @ 0x55930b7bb1c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 47%  4%  2%  5%  6%  5%  2%  1%
-[libx264 @ 0x55930b7bb1c0] i8c dc,h,v,p: 50% 22% 24%  4%
-[libx264 @ 0x55930b7bb1c0] Weighted P-Frames: Y:0.0% UV:0.0%
-[libx264 @ 0x55930b7bb1c0] ref P L0: 84.9%  2.6%  9.7%  2.8%
-[libx264 @ 0x55930b7bb1c0] ref B L0: 94.0%  5.8%  0.2%
-[libx264 @ 0x55930b7bb1c0] ref B L1: 99.7%  0.3%
-[libx264 @ 0x55930b7bb1c0] kb/s:1069.72
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55585e3a7680] moov atom not found
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-frame=   47 fps= 24 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55652b831680] moov atom not found
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55663950c680] moov atom not found
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5556c1714780] moov atom not found
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x558cd6afc780] moov atom not found
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5612c025a780] moov atom not found
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55d08222b780] moov atom not found
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56206e6fa780] moov atom not found
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-Exception in thread Thread-2 (process_video):
-Traceback (most recent call last):
-  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.10/threading.py", line 953, in run
-    self._target(*self._args, **self._kwargs)
-  File "/var/www/html/./runner.py", line 53, in process_video
-FileNotFoundError: [Errno 2] No such file or directory: 'course-f09cb84b-4106-418e-9569-c625b19b7435_1080p.mp4'
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55c3c6067780] moov atom not found
-course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4: Invalid data found when processing input
-Exception in thread Thread-3 (process_video):
-Traceback (most recent call last):
-  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
-    self.run()
-  File "/usr/lib/python3.10/threading.py", line 953, in run
-    self._target(*self._args, **self._kwargs)
-  File "/var/www/html/./runner.py", line 53, in process_video
-FileNotFoundError: [Errno 2] No such file or directory: 'course-f09cb84b-4106-418e-9569-c625b19b7435_1080p.mp4'
-frame=   50 fps= 20 q=30.0 size=       0kB time=00:00:00.00 bitrate=4923.1kbits/s speed=3.07e-05x    frame=   55 fps= 18 q=30.0 size=       0kB time=00:00:00.20 bitrate=   1.9kbits/s speed=0.0646x    frame=   60 fps= 16 q=30.0 size=       0kB time=00:00:00.40 bitrate=   1.0kbits/s speed=0.108x    frame=   66 fps= 15 q=30.0 size=       0kB time=00:00:00.64 bitrate=   0.6kbits/s speed=0.147x    frame=   71 fps= 15 q=30.0 size=     256kB time=00:00:00.84 bitrate=2496.8kbits/s speed=0.173x    frame=   75 fps= 14 q=30.0 size=     256kB time=00:00:01.00 bitrate=2097.4kbits/s speed=0.186x    frame=   81 fps= 13 q=30.0 size=     256kB time=00:00:01.24 bitrate=1691.5kbits/s speed=0.202x    frame=   87 fps= 13 q=30.0 size=     256kB time=00:00:01.48 bitrate=1417.2kbits/s speed=0.219x    frame=   93 fps= 12 q=30.0 size=     512kB time=00:00:01.72 bitrate=2438.7kbits/s speed=0.231x    frame=   98 fps= 12 q=30.0 size=     512kB time=00:00:01.92 bitrate=2184.6kbits/s speed=0.239x    frame=  104 fps= 12 q=30.0 size=     512kB time=00:00:02.16 bitrate=1941.9kbits/s speed=0.248x    frame=  109 fps= 12 q=30.0 size=     512kB time=00:00:02.36 bitrate=1777.4kbits/s speed=0.255x    frame=  115 fps= 12 q=30.0 size=     768kB time=00:00:02.60 bitrate=2419.9kbits/s speed=0.263x    frame=  120 fps= 11 q=30.0 size=     768kB time=00:00:02.80 bitrate=2247.0kbits/s speed=0.268x    frame=  125 fps= 11 q=30.0 size=     768kB time=00:00:03.00 bitrate=2097.2kbits/s speed=0.272x    frame=  130 fps= 11 q=30.0 size=     768kB time=00:00:03.20 bitrate=1966.2kbits/s speed=0.277x    frame=  135 fps= 11 q=30.0 size=    1024kB time=00:00:03.40 bitrate=2467.3kbits/s speed=0.279x    frame=  140 fps= 11 q=30.0 size=    1024kB time=00:00:03.60 bitrate=2330.2kbits/s speed=0.283x    frame=  146 fps= 11 q=30.0 size=    1024kB time=00:00:03.84 bitrate=2184.6kbits/s speed=0.288x    frame=  151 fps= 11 q=30.0 size=    1024kB time=00:00:04.04 bitrate=2076.4kbits/s speed=0.29x    frame=  156 fps= 11 q=30.0 size=    1024kB time=00:00:04.24 bitrate=1978.5kbits/s speed=0.293x    frame=  161 fps= 11 q=30.0 size=    1280kB time=00:00:04.44 bitrate=2361.7kbits/s speed=0.295x    frame=  166 fps= 11 q=30.0 size=    1280kB time=00:00:04.64 bitrate=2259.9kbits/s speed=0.298x    frame=  171 fps= 11 q=30.0 size=    1280kB time=00:00:04.84 bitrate=2166.5kbits/s speed=0.299x    frame=  176 fps= 11 q=30.0 size=    1280kB time=00:00:05.04 bitrate=2080.6kbits/s speed=0.302x    frame=  181 fps= 11 q=30.0 size=    1280kB time=00:00:05.24 bitrate=2001.1kbits/s speed=0.305x    frame=  186 fps= 10 q=30.0 size=    1536kB time=00:00:05.44 bitrate=2313.1kbits/s speed=0.307x    frame=  191 fps= 10 q=30.0 size=    1536kB time=00:00:05.64 bitrate=2231.0kbits/s speed=0.307x    frame=  196 fps= 10 q=30.0 size=    1536kB time=00:00:05.84 bitrate=2154.6kbits/s speed=0.309x    frame=  201 fps= 10 q=30.0 size=    1536kB time=00:00:06.04 bitrate=2083.3kbits/s speed=0.311x    frame=  206 fps= 10 q=30.0 size=    1536kB time=00:00:06.24 bitrate=2016.5kbits/s speed=0.313x    frame=  211 fps= 10 q=30.0 size=    1792kB time=00:00:06.44 bitrate=2279.5kbits/s speed=0.313x    frame=  216 fps= 10 q=30.0 size=    1792kB time=00:00:06.64 bitrate=2210.9kbits/s speed=0.315x    frame=  221 fps= 10 q=30.0 size=    1792kB time=00:00:06.84 bitrate=2146.2kbits/s speed=0.316x    frame=  227 fps= 10 q=30.0 size=    1792kB time=00:00:07.08 bitrate=2073.5kbits/s speed=0.317x    frame=  232 fps= 10 q=30.0 size=    1792kB time=00:00:07.28 bitrate=2016.5kbits/s speed=0.318x    frame=  237 fps= 10 q=30.0 size=    2048kB time=00:00:07.48 bitrate=2243.0kbits/s speed=0.319x    frame=  242 fps= 10 q=30.0 size=    2048kB time=00:00:07.68 bitrate=2184.6kbits/s speed=0.32x    frame=  247 fps= 10 q=30.0 size=    2048kB time=00:00:07.88 bitrate=2129.1kbits/s speed=0.32x    frame=  252 fps= 10 q=30.0 size=    2048kB time=00:00:08.08 bitrate=2076.4kbits/s speed=0.321x    frame=  257 fps= 10 q=30.0 size=    2304kB time=00:00:08.28 bitrate=2279.5kbits/s speed=0.322x    frame=  263 fps= 10 q=30.0 size=    2304kB time=00:00:08.52 bitrate=2215.3kbits/s speed=0.323x    frame=  268 fps= 10 q=30.0 size=    2304kB time=00:00:08.72 bitrate=2164.5kbits/s speed=0.324x    frame=  274 fps=9.9 q=30.0 size=    2304kB time=00:00:08.96 bitrate=2106.5kbits/s speed=0.325x    frame=  279 fps=9.9 q=30.0 size=    2304kB time=00:00:09.16 bitrate=2060.5kbits/s speed=0.326x    frame=  284 fps=9.9 q=30.0 size=    2560kB time=00:00:09.36 bitrate=2240.6kbits/s speed=0.327x    frame=  289 fps=9.9 q=30.0 size=    2560kB time=00:00:09.56 bitrate=2193.7kbits/s speed=0.328x    frame=  293 fps=9.8 q=30.0 size=    2560kB time=00:00:09.72 bitrate=2157.6kbits/s speed=0.325x    frame=  293 fps=8.7 q=-1.0 Lsize=    3202kB time=00:00:11.60 bitrate=2261.1kbits/s speed=0.343x    
-video:3197kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.134507%
-[libx264 @ 0x5628388c6b40] frame I:2     Avg QP:21.58  size: 39782
-[libx264 @ 0x5628388c6b40] frame P:77    Avg QP:22.96  size: 21713
-[libx264 @ 0x5628388c6b40] frame B:214   Avg QP:24.26  size:  7112
-[libx264 @ 0x5628388c6b40] consecutive B-frames:  1.0%  2.0%  8.2% 88.7%
-[libx264 @ 0x5628388c6b40] mb I  I16..4: 43.1% 52.6%  4.4%
-[libx264 @ 0x5628388c6b40] mb P  I16..4:  9.2%  8.5%  0.1%  P16..4: 54.8%  5.5%  2.9%  0.0%  0.0%    skip:18.9%
-[libx264 @ 0x5628388c6b40] mb B  I16..4:  0.5%  0.4%  0.0%  B16..8: 29.4%  1.0%  0.1%  direct: 8.7%  skip:60.0%  L0:48.8% L1:50.3% BI: 0.9%
-[libx264 @ 0x5628388c6b40] 8x8 transform intra:47.7% inter:96.3%
-[libx264 @ 0x5628388c6b40] coded y,uvDC,uvAC intra: 18.3% 69.2% 8.8% inter: 5.7% 29.6% 0.0%
-[libx264 @ 0x5628388c6b40] i16 v,h,dc,p: 37% 24%  7% 32%
-[libx264 @ 0x5628388c6b40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 14% 37%  3%  5%  6%  5%  4%  3%
-[libx264 @ 0x5628388c6b40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 30% 11%  3%  9%  8%  7%  4%  2%
-[libx264 @ 0x5628388c6b40] i8c dc,h,v,p: 55% 21% 22%  2%
-[libx264 @ 0x5628388c6b40] Weighted P-Frames: Y:1.3% UV:0.0%
-[libx264 @ 0x5628388c6b40] ref P L0: 57.2%  5.9% 25.8% 10.9%  0.2%
-[libx264 @ 0x5628388c6b40] ref B L0: 86.7% 10.4%  2.9%
-[libx264 @ 0x5628388c6b40] ref B L1: 95.3%  4.7%
-[libx264 @ 0x5628388c6b40] kb/s:2234.46
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-File 'course-f09cb84b-4106-418e-9569-c625b19b7435_480p.mp4' already exists. Overwrite? [y/N] Not overwriting - exiting
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-File 'course-f09cb84b-4106-418e-9569-c625b19b7435_720p.mp4' already exists. Overwrite? [y/N] Not overwriting - exiting
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-[libx264 @ 0x560a5728c1c0] using SAR=1/1
-[libx264 @ 0x560a5728c1c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x560a5728c1c0] profile High, level 4.0, 4:2:0, 8-bit
-[libx264 @ 0x560a5728c1c0] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_1080p.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 12800 tbn (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   47 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   53 fps= 36 q=28.0 size=       0kB time=00:00:00.12 bitrate=   3.2kbits/s speed=0.0809x    frame=   59 fps= 29 q=28.0 size=       0kB time=00:00:00.36 bitrate=   1.1kbits/s speed=0.179x    frame=   64 fps= 25 q=28.0 size=       0kB time=00:00:00.56 bitrate=   0.7kbits/s speed=0.219x    frame=   70 fps= 21 q=28.0 size=     256kB time=00:00:00.80 bitrate=2621.7kbits/s speed=0.244x    frame=   76 fps= 20 q=28.0 size=     256kB time=00:00:01.04 bitrate=2016.7kbits/s speed=0.271x    frame=   81 fps= 18 q=28.0 size=     256kB time=00:00:01.24 bitrate=1691.5kbits/s speed=0.275x    frame=   87 fps= 17 q=28.0 size=     512kB time=00:00:01.48 bitrate=2834.1kbits/s speed=0.284x    frame=   93 fps= 16 q=28.0 size=     512kB time=00:00:01.72 bitrate=2438.7kbits/s speed=0.295x    frame=   98 fps= 15 q=28.0 size=     512kB time=00:00:01.92 bitrate=2184.6kbits/s speed=0.303x    frame=  103 fps= 15 q=28.0 size=     512kB time=00:00:02.12 bitrate=1978.6kbits/s speed=0.309x    frame=  108 fps= 15 q=28.0 size=     768kB time=00:00:02.32 bitrate=2711.9kbits/s speed=0.312x    frame=  115 fps= 14 q=28.0 size=     768kB time=00:00:02.60 bitrate=2419.9kbits/s speed=0.318x    frame=  121 fps= 14 q=28.0 size=     768kB time=00:00:02.84 bitrate=2215.4kbits/s speed=0.32x    frame=  127 fps= 13 q=28.0 size=    1024kB time=00:00:03.08 bitrate=2723.6kbits/s speed=0.323x    frame=  133 fps= 13 q=28.0 size=    1024kB time=00:00:03.32 bitrate=2526.7kbits/s speed=0.327x    frame=  139 fps= 13 q=28.0 size=    1024kB time=00:00:03.56 bitrate=2356.4kbits/s speed=0.327x    frame=  143 fps= 13 q=28.0 size=    1024kB time=00:00:03.72 bitrate=2255.1kbits/s speed=0.326x    frame=  149 fps= 12 q=28.0 size=    1024kB time=00:00:03.96 bitrate=2118.4kbits/s speed=0.33x    frame=  155 fps= 12 q=28.0 size=    1280kB time=00:00:04.20 bitrate=2496.7kbits/s speed=0.332x    frame=  161 fps= 12 q=28.0 size=    1280kB time=00:00:04.44 bitrate=2361.7kbits/s speed=0.334x    frame=  167 fps= 12 q=28.0 size=    1280kB time=00:00:04.68 bitrate=2240.6kbits/s speed=0.337x    frame=  173 fps= 12 q=28.0 size=    1280kB time=00:00:04.92 bitrate=2131.3kbits/s speed=0.338x    frame=  179 fps= 12 q=28.0 size=    1536kB time=00:00:05.16 bitrate=2438.6kbits/s speed=0.341x    frame=  184 fps= 12 q=28.0 size=    1536kB time=00:00:05.36 bitrate=2347.6kbits/s speed=0.342x    frame=  190 fps= 12 q=28.0 size=    1536kB time=00:00:05.60 bitrate=2247.0kbits/s speed=0.343x    frame=  195 fps= 12 q=28.0 size=    1536kB time=00:00:05.80 bitrate=2169.5kbits/s speed=0.344x    frame=  201 fps= 12 q=28.0 size=    1792kB time=00:00:06.04 bitrate=2430.5kbits/s speed=0.347x    frame=  207 fps= 11 q=28.0 size=    1792kB time=00:00:06.28 bitrate=2337.6kbits/s speed=0.347x    frame=  213 fps= 11 q=28.0 size=    1792kB time=00:00:06.52 bitrate=2251.6kbits/s speed=0.349x    frame=  219 fps= 11 q=28.0 size=    1792kB time=00:00:06.76 bitrate=2171.6kbits/s speed=0.349x    frame=  225 fps= 11 q=28.0 size=    2048kB time=00:00:07.00 bitrate=2396.8kbits/s speed=0.351x    frame=  231 fps= 11 q=28.0 size=    2048kB time=00:00:07.24 bitrate=2317.3kbits/s speed=0.351x    frame=  237 fps= 11 q=28.0 size=    2048kB time=00:00:07.48 bitrate=2243.0kbits/s speed=0.351x    frame=  243 fps= 11 q=28.0 size=    2304kB time=00:00:07.72 bitrate=2444.9kbits/s speed=0.351x    frame=  248 fps= 11 q=28.0 size=    2304kB time=00:00:07.92 bitrate=2383.2kbits/s speed=0.352x    frame=  253 fps= 11 q=28.0 size=    2304kB time=00:00:08.12 bitrate=2324.5kbits/s speed=0.353x    frame=  259 fps= 11 q=28.0 size=    2304kB time=00:00:08.36 bitrate=2257.7kbits/s speed=0.353x    frame=  265 fps= 11 q=28.0 size=    2304kB time=00:00:08.60 bitrate=2194.7kbits/s speed=0.355x    frame=  271 fps= 11 q=28.0 size=    2560kB time=00:00:08.84 bitrate=2372.4kbits/s speed=0.355x    frame=  276 fps= 11 q=28.0 size=    2560kB time=00:00:09.04 bitrate=2319.9kbits/s speed=0.356x    Thu Jan  5 15:24:15 2023 - worker 4 (pid: 79265) is taking too much time to die...NO MERCY !!!
-frame=  282 fps= 11 q=28.0 size=    2560kB time=00:00:09.28 bitrate=2259.9kbits/s speed=0.356x    worker 4 buried after 0 seconds
-binary reloading uWSGI...
-chdir() to /var/www/html
-closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
-found fd 6 mapped to socket 0 (/var/www/html/convert.sock)
-found fd 7 mapped to socket 1 (:5000)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from /var/www/html/uwsgi.ini
-*** Starting uWSGI 2.0.21 (64bit) on [Thu Jan  5 15:24:16 2023] ***
-compiled with version: 11.3.0 on 05 January 2023 13:11:56
-os: Linux-5.15.0-1026-aws #30-Ubuntu SMP Wed Nov 23 14:15:21 UTC 2022
-nodename: ip-172-31-3-51
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /var/www/html
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your processes number limit is 15402
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to TCP address :80 fd 3
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x55946517c1f0
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 364520 bytes (355 KB) for 4 cores
-*** Operational MODE: preforking ***
-ModuleNotFoundError: No module named 'app'
-unable to load app 0 (mountpoint='') (callable not found or import error)
-*** no app loaded. going in full dynamic mode ***
-uWSGI running as root, you can use --uid/--gid/--chroot options
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 79261)
-spawned uWSGI worker 1 (pid: 79642, cores: 1)
-spawned uWSGI worker 2 (pid: 79643, cores: 1)
-spawned uWSGI worker 3 (pid: 79644, cores: 1)
-spawned uWSGI worker 4 (pid: 79645, cores: 1)
-*** Starting uWSGI 2.0.21 (64bit) on [Thu Jan  5 15:27:55 2023] ***
-compiled with version: 11.3.0 on 05 January 2023 13:11:56
-os: Linux-5.15.0-1026-aws #30-Ubuntu SMP Wed Nov 23 14:15:21 UTC 2022
-nodename: ip-172-31-3-51
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /var/www/html
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your processes number limit is 15402
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /var/www/html/convert.sock fd 6
-uwsgi socket 1 bound to TCP address :80 fd 7
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x55ea01d1e3e0
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 364520 bytes (355 KB) for 4 cores
-*** Operational MODE: preforking ***
-ModuleNotFoundError: No module named 'app'
-unable to load app 0 (mountpoint='') (callable not found or import error)
-*** no app loaded. going in full dynamic mode ***
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 79681)
-spawned uWSGI worker 1 (pid: 79683, cores: 1)
-spawned uWSGI worker 2 (pid: 79684, cores: 1)
-spawned uWSGI worker 3 (pid: 79685, cores: 1)
-spawned uWSGI worker 4 (pid: 79686, cores: 1)
---- no python application found, check your startup logs for errors ---
---- no python application found, check your startup logs for errors ---
---- no python application found, check your startup logs for errors ---
---- no python application found, check your startup logs for errors ---
---- no python application found, check your startup logs for errors ---
-...brutally killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /var/www/html
-closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
-found fd 6 mapped to socket 0 (/var/www/html/convert.sock)
-found fd 7 mapped to socket 1 (:80)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from /var/www/html/uwsgi.ini
-*** Starting uWSGI 2.0.21 (64bit) on [Thu Jan  5 16:12:27 2023] ***
-compiled with version: 11.3.0 on 05 January 2023 13:11:56
-os: Linux-5.15.0-1026-aws #30-Ubuntu SMP Wed Nov 23 14:15:21 UTC 2022
-nodename: ip-172-31-3-51
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /var/www/html
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your processes number limit is 15402
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited UNIX address /var/www/html/convert.sock fd 6
-uwsgi socket 1 inherited INET address :80 fd 7
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x55ba32c602f0
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 364520 bytes (355 KB) for 4 cores
-*** Operational MODE: preforking ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ba32c602f0 pid: 79681 (default app)
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 79681)
-spawned uWSGI worker 1 (pid: 80432, cores: 1)
-spawned uWSGI worker 2 (pid: 80433, cores: 1)
-spawned uWSGI worker 3 (pid: 80434, cores: 1)
-spawned uWSGI worker 4 (pid: 80435, cores: 1)
-*** Starting uWSGI 2.0.21 (64bit) on [Thu Jan  5 16:13:56 2023] ***
-compiled with version: 11.3.0 on 05 January 2023 13:11:56
-os: Linux-5.15.0-1026-aws #30-Ubuntu SMP Wed Nov 23 14:15:21 UTC 2022
-nodename: ip-172-31-3-51
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /var/www/html
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your processes number limit is 15402
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /var/www/html/convert.sock fd 6
-uwsgi socket 1 bound to TCP address :80 fd 7
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x556e0b2dc3e0
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 364520 bytes (355 KB) for 4 cores
-*** Operational MODE: preforking ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556e0b2dc3e0 pid: 80441 (default app)
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 80441)
-spawned uWSGI worker 1 (pid: 80443, cores: 1)
-spawned uWSGI worker 2 (pid: 80444, cores: 1)
-spawned uWSGI worker 3 (pid: 80445, cores: 1)
-spawned uWSGI worker 4 (pid: 80446, cores: 1)
-[2023-01-05 16:14:46,883] ERROR in app: Exception on / [GET]
-Traceback (most recent call last):
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
-  File "/var/www/html/./runner.py", line 12, in handle_request
-    content = requests.get(url).content
-NameError: name 'requests' is not defined
-...brutally killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /var/www/html
-closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
-found fd 6 mapped to socket 0 (/var/www/html/convert.sock)
-found fd 7 mapped to socket 1 (:80)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from /var/www/html/uwsgi.ini
-*** Starting uWSGI 2.0.21 (64bit) on [Thu Jan  5 16:16:41 2023] ***
-compiled with version: 11.3.0 on 05 January 2023 13:11:56
-os: Linux-5.15.0-1026-aws #30-Ubuntu SMP Wed Nov 23 14:15:21 UTC 2022
-nodename: ip-172-31-3-51
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /var/www/html
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your processes number limit is 15402
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited UNIX address /var/www/html/convert.sock fd 6
-uwsgi socket 1 inherited INET address :80 fd 7
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x5620602092f0
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 364520 bytes (355 KB) for 4 cores
-*** Operational MODE: preforking ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5620602092f0 pid: 80441 (default app)
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 80441)
-spawned uWSGI worker 1 (pid: 80472, cores: 1)
-spawned uWSGI worker 2 (pid: 80473, cores: 1)
-spawned uWSGI worker 3 (pid: 80474, cores: 1)
-spawned uWSGI worker 4 (pid: 80475, cores: 1)
-*** Starting uWSGI 2.0.21 (64bit) on [Thu Jan  5 16:18:10 2023] ***
-compiled with version: 11.3.0 on 05 January 2023 13:11:56
-os: Linux-5.15.0-1026-aws #30-Ubuntu SMP Wed Nov 23 14:15:21 UTC 2022
-nodename: ip-172-31-3-51
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /var/www/html
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your processes number limit is 15402
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /var/www/html/convert.sock fd 6
-uwsgi socket 1 bound to TCP address :80 fd 7
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x5642004403e0
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 364520 bytes (355 KB) for 4 cores
-*** Operational MODE: preforking ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5642004403e0 pid: 80485 (default app)
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 80485)
-spawned uWSGI worker 1 (pid: 80486, cores: 1)
-spawned uWSGI worker 2 (pid: 80487, cores: 1)
-spawned uWSGI worker 3 (pid: 80488, cores: 1)
-spawned uWSGI worker 4 (pid: 80489, cores: 1)
-[2023-01-05 16:18:32,400] ERROR in app: Exception on / [GET]
-Traceback (most recent call last):
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
-  File "/var/www/html/./runner.py", line 19, in handle_request
-    subprocess.run(["python3", "convert.py", video_name])
-  File "/usr/lib/python3.10/subprocess.py", line 501, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'python3'
-[2023-01-05 16:19:39,907] ERROR in app: Exception on / [GET]
-Traceback (most recent call last):
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
-  File "/var/www/html/./runner.py", line 19, in handle_request
-    subprocess.run(["/usr/bin/python3", "convert.py", video_name])
-  File "/usr/lib/python3.10/subprocess.py", line 501, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'python3'
-...brutally killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /var/www/html
-closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
-found fd 6 mapped to socket 0 (/var/www/html/convert.sock)
-found fd 7 mapped to socket 1 (:80)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from /var/www/html/uwsgi.ini
-*** Starting uWSGI 2.0.21 (64bit) on [Thu Jan  5 16:19:46 2023] ***
-compiled with version: 11.3.0 on 05 January 2023 13:11:56
-os: Linux-5.15.0-1026-aws #30-Ubuntu SMP Wed Nov 23 14:15:21 UTC 2022
-nodename: ip-172-31-3-51
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /var/www/html
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your processes number limit is 15402
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited UNIX address /var/www/html/convert.sock fd 6
-uwsgi socket 1 inherited INET address :80 fd 7
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x55b1e97b52f0
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 364520 bytes (355 KB) for 4 cores
-*** Operational MODE: preforking ***
-WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b1e97b52f0 pid: 80485 (default app)
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 80485)
-spawned uWSGI worker 1 (pid: 80506, cores: 1)
-spawned uWSGI worker 2 (pid: 80507, cores: 1)
-spawned uWSGI worker 3 (pid: 80508, cores: 1)
-spawned uWSGI worker 4 (pid: 80509, cores: 1)
-*** Starting uWSGI 2.0.21 (64bit) on [Thu Jan  5 16:21:15 2023] ***
-compiled with version: 11.3.0 on 05 January 2023 13:11:56
-os: Linux-5.15.0-1026-aws #30-Ubuntu SMP Wed Nov 23 14:15:21 UTC 2022
-nodename: ip-172-31-3-51
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /var/www/html
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your processes number limit is 15402
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /var/www/html/convert.sock fd 6
-uwsgi socket 1 bound to TCP address :80 fd 7
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x55ad065b63e0
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 364520 bytes (355 KB) for 4 cores
-*** Operational MODE: preforking ***
-WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ad065b63e0 pid: 80514 (default app)
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 80514)
-spawned uWSGI worker 1 (pid: 80516, cores: 1)
-spawned uWSGI worker 2 (pid: 80517, cores: 1)
-spawned uWSGI worker 3 (pid: 80518, cores: 1)
-spawned uWSGI worker 4 (pid: 80519, cores: 1)
-Error occured while running jpeg generation: [Errno 2] No such file or directory: 'ffmpeg'
-Error occurred while running upload_file(jpeg) on production with error: [Errno 2] No such file or directory: 'course-f09cb84b-4106-418e-9569-c625b19b7435_thumbnail.jpg'
-Error occurred while running ffmpeg: [Errno 2] No such file or directory: 'ffmpeg'
-Error occurred while running ffmpeg: [Errno 2] No such file or directory: 'ffmpeg'
-Traceback (most recent call last):
-  File "/var/www/html/convert.py", line 40, in <module>
-    os.chmod(folder_name + "_480p.mp4", 0o777)
-FileNotFoundError: [Errno 2] No such file or directory: 'course-f09cb84b-4106-418e-9569-c625b19b7435_480p.mp4'
-...brutally killing workers...
-worker 1 buried after 1 seconds
-worker 2 buried after 1 seconds
-worker 3 buried after 1 seconds
-worker 4 buried after 1 seconds
-binary reloading uWSGI...
-chdir() to /var/www/html
-closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
-found fd 6 mapped to socket 0 (/var/www/html/convert.sock)
-found fd 7 mapped to socket 1 (:80)
-running /usr/local/bin/uwsgi
-[uWSGI] getting INI configuration from /var/www/html/uwsgi.ini
-*** Starting uWSGI 2.0.21 (64bit) on [Thu Jan  5 16:27:14 2023] ***
-compiled with version: 11.3.0 on 05 January 2023 13:11:56
-os: Linux-5.15.0-1026-aws #30-Ubuntu SMP Wed Nov 23 14:15:21 UTC 2022
-nodename: ip-172-31-3-51
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /var/www/html
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your processes number limit is 15402
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 inherited UNIX address /var/www/html/convert.sock fd 6
-uwsgi socket 1 inherited INET address :80 fd 7
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x5610d90892f0
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 364520 bytes (355 KB) for 4 cores
-*** Operational MODE: preforking ***
-WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5610d90892f0 pid: 80514 (default app)
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-gracefully (RE)spawned uWSGI master process (pid: 80514)
-spawned uWSGI worker 1 (pid: 80579, cores: 1)
-spawned uWSGI worker 2 (pid: 80580, cores: 1)
-spawned uWSGI worker 3 (pid: 80581, cores: 1)
-spawned uWSGI worker 4 (pid: 80582, cores: 1)
-*** Starting uWSGI 2.0.21 (64bit) on [Thu Jan  5 16:28:43 2023] ***
-compiled with version: 11.3.0 on 05 January 2023 13:11:56
-os: Linux-5.15.0-1026-aws #30-Ubuntu SMP Wed Nov 23 14:15:21 UTC 2022
-nodename: ip-172-31-3-51
-machine: x86_64
-clock source: unix
-detected number of CPU cores: 2
-current working directory: /var/www/html
-detected binary path: /usr/local/bin/uwsgi
-!!! no internal routing support, rebuild with pcre support !!!
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your processes number limit is 15402
-your memory page size is 4096 bytes
-detected max file descriptor number: 1024
-lock engine: pthread robust mutexes
-thunder lock: disabled (you can enable it with --thunder-lock)
-uwsgi socket 0 bound to UNIX address /var/www/html/convert.sock fd 6
-uwsgi socket 1 bound to TCP address :80 fd 7
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x5646e0eae3e0
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-your server socket listen backlog is limited to 100 connections
-your mercy for graceful operations on workers is 60 seconds
-mapped 364520 bytes (355 KB) for 4 cores
-*** Operational MODE: preforking ***
-WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5646e0eae3e0 pid: 80588 (default app)
-*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
-*** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 80588)
-spawned uWSGI worker 1 (pid: 80590, cores: 1)
-spawned uWSGI worker 2 (pid: 80591, cores: 1)
-spawned uWSGI worker 3 (pid: 80592, cores: 1)
-spawned uWSGI worker 4 (pid: 80593, cores: 1)
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435.mp4':
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    creation_time   : 2017-03-30T10:11:34.000000Z
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 4446 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 4443 kb/s, 25 fps, 25 tbr, 25 tbn, 50 tbc (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : AVC Coding
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
-Press [q] to stop, [?] for help
-[swscaler @ 0x56324ff2d1c0] deprecated pixel format used, make sure you did set range correctly
-Output #0, image2, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_thumbnail.jpg':
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: mjpeg, yuvj420p(pc, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 mjpeg
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=5.8 size=N/A time=00:00:00.04 bitrate=N/A speed=0.094x    frame=    1 fps=0.0 q=5.8 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0858x    
-video:51kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435.mp4':
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    creation_time   : 2017-03-30T10:11:34.000000Z
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 4446 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 4443 kb/s, 25 fps, 25 tbr, 25 tbn, 50 tbc (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : AVC Coding
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-[libx264 @ 0x560393f37b40] using SAR=1/1
-[libx264 @ 0x560393f37b40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x560393f37b40] profile High, level 4.0, 4:2:0, 8-bit
-[libx264 @ 0x560393f37b40] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:-1:-1 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.15 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-3 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=25.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : mp42
-    minor_version   : 0
-    compatible_brands: mp42mp41isomavc1
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 12800 tbn (default)
-    Metadata:
-      creation_time   : 2017-03-30T10:11:34.000000Z
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   46 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   48 fps= 45 q=30.0 size=       0kB time=-00:00:00.07 bitrate=N/A speed=N/A    frame=   53 fps= 31 q=30.0 size=       0kB time=00:00:00.12 bitrate=   3.2kbits/s speed=0.0714x    frame=   59 fps= 26 q=30.0 size=       0kB time=00:00:00.36 bitrate=   1.1kbits/s speed=0.158x    frame=   64 fps= 22 q=30.0 size=       0kB time=00:00:00.56 bitrate=   0.7kbits/s speed=0.19x    frame=   69 fps= 20 q=30.0 size=     256kB time=00:00:00.76 bitrate=2759.6kbits/s speed=0.22x    frame=   74 fps= 18 q=30.0 size=     256kB time=00:00:00.96 bitrate=2184.8kbits/s speed=0.239x    frame=   79 fps= 17 q=30.0 size=     256kB time=00:00:01.16 bitrate=1808.1kbits/s speed=0.255x    frame=   83 fps= 16 q=30.0 size=     256kB time=00:00:01.32 bitrate=1588.9kbits/s speed=0.257x    frame=   88 fps= 16 q=30.0 size=     256kB time=00:00:01.52 bitrate=1379.9kbits/s speed=0.27x    frame=   93 fps= 15 q=30.0 size=     512kB time=00:00:01.72 bitrate=2438.7kbits/s speed=0.276x    frame=   98 fps= 14 q=30.0 size=     512kB time=00:00:01.92 bitrate=2184.6kbits/s speed=0.283x    frame=  103 fps= 14 q=30.0 size=     512kB time=00:00:02.12 bitrate=1978.6kbits/s speed=0.29x    frame=  108 fps= 14 q=30.0 size=     512kB time=00:00:02.32 bitrate=1808.0kbits/s speed=0.292x    frame=  113 fps= 13 q=30.0 size=     768kB time=00:00:02.52 bitrate=2496.7kbits/s speed=0.297x    frame=  118 fps= 13 q=30.0 size=     768kB time=00:00:02.72 bitrate=2313.1kbits/s speed=0.302x    frame=  123 fps= 13 q=30.0 size=     768kB time=00:00:02.92 bitrate=2154.7kbits/s speed=0.302x    frame=  128 fps= 13 q=30.0 size=     768kB time=00:00:03.12 bitrate=2016.6kbits/s speed=0.306x    frame=  134 fps= 12 q=30.0 size=    1024kB time=00:00:03.36 bitrate=2496.7kbits/s speed=0.311x    frame=  139 fps= 12 q=30.0 size=    1024kB time=00:00:03.56 bitrate=2356.4kbits/s speed=0.31x    frame=  145 fps= 12 q=30.0 size=    1024kB time=00:00:03.80 bitrate=2207.6kbits/s speed=0.314x    frame=  151 fps= 12 q=30.0 size=    1024kB time=00:00:04.04 bitrate=2076.4kbits/s speed=0.316x    frame=  157 fps= 12 q=30.0 size=    1024kB time=00:00:04.28 bitrate=1960.0kbits/s speed=0.318x    frame=  162 fps= 12 q=30.0 size=    1280kB time=00:00:04.48 bitrate=2340.6kbits/s speed=0.32x    frame=  167 fps= 11 q=30.0 size=    1280kB time=00:00:04.68 bitrate=2240.6kbits/s speed=0.321x    frame=  173 fps= 11 q=30.0 size=    1280kB time=00:00:04.92 bitrate=2131.3kbits/s speed=0.325x    frame=  178 fps= 11 q=30.0 size=    1280kB time=00:00:05.12 bitrate=2048.0kbits/s speed=0.327x    frame=  183 fps= 11 q=30.0 size=    1280kB time=00:00:05.32 bitrate=1971.1kbits/s speed=0.325x    frame=  188 fps= 11 q=30.0 size=    1536kB time=00:00:05.52 bitrate=2279.6kbits/s speed=0.327x    frame=  193 fps= 11 q=30.0 size=    1536kB time=00:00:05.72 bitrate=2199.8kbits/s speed=0.329x    frame=  198 fps= 11 q=30.0 size=    1536kB time=00:00:05.92 bitrate=2125.5kbits/s speed=0.331x    frame=  203 fps= 11 q=30.0 size=    1536kB time=00:00:06.12 bitrate=2056.1kbits/s speed=0.33x    frame=  208 fps= 11 q=30.0 size=    1536kB time=00:00:06.32 bitrate=1991.0kbits/s speed=0.331x    frame=  213 fps= 11 q=30.0 size=    1792kB time=00:00:06.52 bitrate=2251.6kbits/s speed=0.331x    frame=  219 fps= 11 q=30.0 size=    1792kB time=00:00:06.76 bitrate=2171.6kbits/s speed=0.332x    frame=  225 fps= 11 q=30.0 size=    1792kB time=00:00:07.00 bitrate=2097.2kbits/s speed=0.334x    frame=  230 fps= 11 q=30.0 size=    1792kB time=00:00:07.20 bitrate=2038.9kbits/s speed=0.335x    frame=  235 fps= 11 q=30.0 size=    2048kB time=00:00:07.40 bitrate=2267.2kbits/s speed=0.334x    frame=  240 fps= 11 q=30.0 size=    2048kB time=00:00:07.60 bitrate=2207.6kbits/s speed=0.335x    frame=  245 fps= 11 q=30.0 size=    2048kB time=00:00:07.80 bitrate=2151.0kbits/s speed=0.336x    frame=  249 fps= 10 q=30.0 size=    2048kB time=00:00:07.96 bitrate=2107.7kbits/s speed=0.335x    frame=  255 fps= 10 q=30.0 size=    2048kB time=00:00:08.20 bitrate=2046.0kbits/s speed=0.336x    frame=  260 fps= 10 q=30.0 size=    2304kB time=00:00:08.40 bitrate=2247.0kbits/s speed=0.337x    frame=  265 fps= 10 q=30.0 size=    2304kB time=00:00:08.60 bitrate=2194.7kbits/s speed=0.338x    frame=  271 fps= 10 q=30.0 size=    2304kB time=00:00:08.84 bitrate=2135.1kbits/s speed=0.338x    frame=  276 fps= 10 q=30.0 size=    2304kB time=00:00:09.04 bitrate=2087.9kbits/s speed=0.339x    frame=  281 fps= 10 q=30.0 size=    2560kB time=00:00:09.24 bitrate=2269.7kbits/s speed=0.339x    frame=  286 fps= 10 q=30.0 size=    2560kB time=00:00:09.44 bitrate=2221.6kbits/s speed=0.339x    frame=  292 fps= 10 q=30.0 size=    2560kB time=00:00:09.68 bitrate=2166.5kbits/s speed=0.341x    frame=  293 fps=8.9 q=-1.0 Lsize=    3202kB time=00:00:11.60 bitrate=2261.1kbits/s speed=0.354x    
-video:3197kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.134507%
-[libx264 @ 0x560393f37b40] frame I:2     Avg QP:21.58  size: 39782
-[libx264 @ 0x560393f37b40] frame P:77    Avg QP:22.96  size: 21713
-[libx264 @ 0x560393f37b40] frame B:214   Avg QP:24.26  size:  7112
-[libx264 @ 0x560393f37b40] consecutive B-frames:  1.0%  2.0%  8.2% 88.7%
-[libx264 @ 0x560393f37b40] mb I  I16..4: 43.1% 52.6%  4.4%
-[libx264 @ 0x560393f37b40] mb P  I16..4:  9.2%  8.5%  0.1%  P16..4: 54.8%  5.5%  2.9%  0.0%  0.0%    skip:18.9%
-[libx264 @ 0x560393f37b40] mb B  I16..4:  0.5%  0.4%  0.0%  B16..8: 29.4%  1.0%  0.1%  direct: 8.7%  skip:60.0%  L0:48.8% L1:50.3% BI: 0.9%
-[libx264 @ 0x560393f37b40] 8x8 transform intra:47.7% inter:96.3%
-[libx264 @ 0x560393f37b40] coded y,uvDC,uvAC intra: 18.3% 69.2% 8.8% inter: 5.7% 29.6% 0.0%
-[libx264 @ 0x560393f37b40] i16 v,h,dc,p: 37% 24%  7% 32%
-[libx264 @ 0x560393f37b40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 14% 37%  3%  5%  6%  5%  4%  3%
-[libx264 @ 0x560393f37b40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 30% 11%  3%  9%  8%  7%  4%  2%
-[libx264 @ 0x560393f37b40] i8c dc,h,v,p: 55% 21% 22%  2%
-[libx264 @ 0x560393f37b40] Weighted P-Frames: Y:1.3% UV:0.0%
-[libx264 @ 0x560393f37b40] ref P L0: 57.2%  5.9% 25.8% 10.9%  0.2%
-[libx264 @ 0x560393f37b40] ref B L0: 86.7% 10.4%  2.9%
-[libx264 @ 0x560393f37b40] ref B L1: 95.3%  4.7%
-[libx264 @ 0x560393f37b40] kb/s:2234.46
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-[libx264 @ 0x559e324fc1c0] using SAR=640/639
-[libx264 @ 0x559e324fc1c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x559e324fc1c0] profile High, level 3.0, 4:2:0, 8-bit
-[libx264 @ 0x559e324fc1c0] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_480p.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 852x480 [SAR 640:639 DAR 16:9], q=2-31, 25 fps, 12800 tbn (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   46 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   64 fps= 60 q=28.0 size=       0kB time=00:00:00.56 bitrate=   0.7kbits/s speed=0.528x    frame=   82 fps= 52 q=28.0 size=       0kB time=00:00:01.28 bitrate=   0.3kbits/s speed=0.809x    frame=  100 fps= 48 q=28.0 size=       0kB time=00:00:02.00 bitrate=   0.2kbits/s speed=0.958x    frame=  118 fps= 45 q=28.0 size=       0kB time=00:00:02.72 bitrate=   0.1kbits/s speed=1.04x    frame=  136 fps= 43 q=28.0 size=       0kB time=00:00:03.44 bitrate=   0.1kbits/s speed=1.09x    frame=  155 fps= 42 q=28.0 size=       0kB time=00:00:04.20 bitrate=   0.1kbits/s speed=1.14x    frame=  174 fps= 41 q=28.0 size=     256kB time=00:00:04.96 bitrate= 422.9kbits/s speed=1.18x    frame=  192 fps= 41 q=28.0 size=     256kB time=00:00:05.68 bitrate= 369.3kbits/s speed=1.21x    frame=  208 fps= 40 q=28.0 size=     256kB time=00:00:06.32 bitrate= 331.9kbits/s speed=1.21x    frame=  226 fps= 39 q=28.0 size=     256kB time=00:00:07.04 bitrate= 297.9kbits/s speed=1.22x    frame=  244 fps= 39 q=28.0 size=     256kB time=00:00:07.76 bitrate= 270.3kbits/s speed=1.24x    frame=  262 fps= 38 q=28.0 size=     256kB time=00:00:08.48 bitrate= 247.3kbits/s speed=1.24x    frame=  280 fps= 38 q=28.0 size=     256kB time=00:00:09.20 bitrate= 228.0kbits/s speed=1.26x    frame=  293 fps= 35 q=-1.0 Lsize=     619kB time=00:00:11.60 bitrate= 437.1kbits/s speed=1.37x    
-video:615kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.700445%
-[libx264 @ 0x559e324fc1c0] frame I:2     Avg QP:20.42  size: 15232
-[libx264 @ 0x559e324fc1c0] frame P:74    Avg QP:21.61  size:  4915
-[libx264 @ 0x559e324fc1c0] frame B:217   Avg QP:24.73  size:  1081
-[libx264 @ 0x559e324fc1c0] consecutive B-frames:  1.0%  0.0%  2.0% 96.9%
-[libx264 @ 0x559e324fc1c0] mb I  I16..4: 23.4% 61.6% 15.0%
-[libx264 @ 0x559e324fc1c0] mb P  I16..4:  2.3%  4.3%  0.3%  P16..4: 43.7% 11.6%  5.6%  0.0%  0.0%    skip:32.2%
-[libx264 @ 0x559e324fc1c0] mb B  I16..4:  0.1%  0.1%  0.0%  B16..8: 26.9%  2.1%  0.2%  direct: 0.7%  skip:69.9%  L0:42.4% L1:54.5% BI: 3.1%
-[libx264 @ 0x559e324fc1c0] 8x8 transform intra:61.9% inter:89.8%
-[libx264 @ 0x559e324fc1c0] coded y,uvDC,uvAC intra: 46.1% 62.1% 12.3% inter: 6.9% 11.7% 0.0%
-[libx264 @ 0x559e324fc1c0] i16 v,h,dc,p: 41% 18%  3% 38%
-[libx264 @ 0x559e324fc1c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 29% 14% 17%  4%  8% 10%  6%  7%  5%
-[libx264 @ 0x559e324fc1c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 31%  7%  3%  7%  8%  6%  4%  2%
-[libx264 @ 0x559e324fc1c0] i8c dc,h,v,p: 56% 17% 24%  4%
-[libx264 @ 0x559e324fc1c0] Weighted P-Frames: Y:0.0% UV:0.0%
-[libx264 @ 0x559e324fc1c0] ref P L0: 59.9%  9.7% 22.7%  7.7%
-[libx264 @ 0x559e324fc1c0] ref B L0: 92.4%  6.1%  1.5%
-[libx264 @ 0x559e324fc1c0] ref B L1: 97.3%  2.7%
-[libx264 @ 0x559e324fc1c0] kb/s:429.19
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-[libx264 @ 0x55b6098de1c0] using SAR=1/1
-[libx264 @ 0x55b6098de1c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x55b6098de1c0] profile High, level 3.1, 4:2:0, 8-bit
-[libx264 @ 0x55b6098de1c0] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_720p.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 12800 tbn (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   47 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   57 fps= 47 q=28.0 size=       0kB time=00:00:00.28 bitrate=   1.4kbits/s speed=0.233x    frame=   67 fps= 39 q=28.0 size=       0kB time=00:00:00.68 bitrate=   0.6kbits/s speed=0.396x    frame=   77 fps= 34 q=28.0 size=       0kB time=00:00:01.08 bitrate=   0.4kbits/s speed=0.48x    frame=   87 fps= 31 q=28.0 size=       0kB time=00:00:01.48 bitrate=   0.3kbits/s speed=0.533x    frame=   97 fps= 29 q=28.0 size=     256kB time=00:00:01.88 bitrate=1115.7kbits/s speed=0.561x    frame=  108 fps= 27 q=28.0 size=     256kB time=00:00:02.32 bitrate= 904.1kbits/s speed=0.59x    frame=  119 fps= 26 q=28.0 size=     256kB time=00:00:02.76 bitrate= 760.0kbits/s speed=0.613x    frame=  129 fps= 26 q=28.0 size=     256kB time=00:00:03.16 bitrate= 663.8kbits/s speed=0.629x    frame=  139 fps= 25 q=28.0 size=     256kB time=00:00:03.56 bitrate= 589.2kbits/s speed=0.637x    frame=  150 fps= 25 q=28.0 size=     512kB time=00:00:04.00 bitrate=1048.7kbits/s speed=0.654x    frame=  159 fps= 24 q=28.0 size=     512kB time=00:00:04.36 bitrate= 962.1kbits/s speed=0.659x    frame=  170 fps= 24 q=28.0 size=     512kB time=00:00:04.80 bitrate= 873.9kbits/s speed=0.671x    frame=  180 fps= 23 q=28.0 size=     512kB time=00:00:05.20 bitrate= 806.7kbits/s speed=0.677x    frame=  191 fps= 23 q=28.0 size=     512kB time=00:00:05.64 bitrate= 743.7kbits/s speed=0.68x    frame=  202 fps= 23 q=28.0 size=     512kB time=00:00:06.08 bitrate= 689.9kbits/s speed=0.687x    frame=  211 fps= 23 q=28.0 size=     768kB time=00:00:06.44 bitrate= 977.0kbits/s speed=0.687x    frame=  221 fps= 22 q=28.0 size=     768kB time=00:00:06.84 bitrate= 919.8kbits/s speed=0.686x    frame=  229 fps= 22 q=28.0 size=     768kB time=00:00:07.16 bitrate= 878.7kbits/s speed=0.673x    frame=  237 fps= 21 q=28.0 size=     768kB time=00:00:07.48 bitrate= 841.1kbits/s speed=0.668x    frame=  245 fps= 20 q=28.0 size=     768kB time=00:00:07.80 bitrate= 806.6kbits/s speed=0.635x    frame=  249 fps= 19 q=28.0 size=     768kB time=00:00:07.96 bitrate= 790.4kbits/s speed=0.621x    frame=  257 fps= 19 q=28.0 size=     768kB time=00:00:08.28 bitrate= 759.9kbits/s speed=0.619x    frame=  267 fps= 19 q=28.0 size=    1024kB time=00:00:08.68 bitrate= 966.5kbits/s speed=0.625x    frame=  277 fps= 19 q=28.0 size=    1024kB time=00:00:09.08 bitrate= 923.9kbits/s speed=0.627x    frame=  287 fps= 19 q=28.0 size=    1024kB time=00:00:09.48 bitrate= 884.9kbits/s speed=0.633x    frame=  293 fps= 17 q=-1.0 Lsize=    1390kB time=00:00:11.60 bitrate= 981.9kbits/s speed=0.683x    
-video:1386kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.310197%
-[libx264 @ 0x55b6098de1c0] frame I:2     Avg QP:19.97  size: 26194
-[libx264 @ 0x55b6098de1c0] frame P:75    Avg QP:21.20  size: 10735
-[libx264 @ 0x55b6098de1c0] frame B:216   Avg QP:23.14  size:  2598
-[libx264 @ 0x55b6098de1c0] consecutive B-frames:  0.7%  1.4%  5.1% 92.8%
-[libx264 @ 0x55b6098de1c0] mb I  I16..4: 27.8% 62.3%  9.8%
-[libx264 @ 0x55b6098de1c0] mb P  I16..4:  4.7%  6.3%  0.2%  P16..4: 49.5% 10.0%  4.9%  0.0%  0.0%    skip:24.4%
-[libx264 @ 0x55b6098de1c0] mb B  I16..4:  0.2%  0.2%  0.0%  B16..8: 25.9%  1.7%  0.2%  direct: 2.4%  skip:69.5%  L0:43.5% L1:54.1% BI: 2.3%
-[libx264 @ 0x55b6098de1c0] 8x8 transform intra:56.9% inter:93.4%
-[libx264 @ 0x55b6098de1c0] coded y,uvDC,uvAC intra: 32.0% 66.2% 10.9% inter: 7.0% 18.2% 0.0%
-[libx264 @ 0x55b6098de1c0] i16 v,h,dc,p: 41% 21%  5% 32%
-[libx264 @ 0x55b6098de1c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 15% 24%  4%  7%  8%  6%  6%  4%
-[libx264 @ 0x55b6098de1c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 29% 29%  9%  3%  9%  9%  7%  4%  2%
-[libx264 @ 0x55b6098de1c0] i8c dc,h,v,p: 56% 18% 22%  4%
-[libx264 @ 0x55b6098de1c0] Weighted P-Frames: Y:2.7% UV:0.0%
-[libx264 @ 0x55b6098de1c0] ref P L0: 59.0%  7.3% 24.3%  9.2%  0.2%
-[libx264 @ 0x55b6098de1c0] ref B L0: 89.1%  8.6%  2.4%
-[libx264 @ 0x55b6098de1c0] ref B L1: 96.7%  3.3%
-[libx264 @ 0x55b6098de1c0] kb/s:968.42
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-[libx264 @ 0x55766fd3e1c0] using SAR=1/1
-[libx264 @ 0x55766fd3e1c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x55766fd3e1c0] profile High, level 4.0, 4:2:0, 8-bit
-[libx264 @ 0x55766fd3e1c0] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-Output #0, mp4, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_1080p.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 12800 tbn (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   47 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   53 fps= 36 q=28.0 size=       0kB time=00:00:00.12 bitrate=   3.2kbits/s speed=0.0817x    frame=   60 fps= 27 q=28.0 size=       0kB time=00:00:00.40 bitrate=   1.0kbits/s speed=0.18x    frame=   66 fps= 23 q=28.0 size=     256kB time=00:00:00.64 bitrate=3277.0kbits/s speed=0.228x    frame=   72 fps= 21 q=28.0 size=     256kB time=00:00:00.88 bitrate=2383.4kbits/s speed=0.261x    frame=   77 fps= 19 q=28.0 size=     256kB time=00:00:01.08 bitrate=1942.0kbits/s speed=0.271x    frame=   83 fps= 18 q=28.0 size=     256kB time=00:00:01.32 bitrate=1588.9kbits/s speed=0.285x    frame=   89 fps= 17 q=28.0 size=     512kB time=00:00:01.56 bitrate=2688.8kbits/s speed=0.296x    frame=   94 fps= 16 q=28.0 size=     512kB time=00:00:01.76 bitrate=2383.2kbits/s speed=0.303x    frame=  100 fps= 15 q=28.0 size=     512kB time=00:00:02.00 bitrate=2097.3kbits/s speed=0.308x    frame=  106 fps= 15 q=28.0 size=     512kB time=00:00:02.24 bitrate=1872.6kbits/s speed=0.32x    frame=  112 fps= 14 q=28.0 size=     768kB time=00:00:02.48 bitrate=2537.0kbits/s speed=0.321x    frame=  118 fps= 14 q=28.0 size=     768kB time=00:00:02.72 bitrate=2313.1kbits/s speed=0.325x    frame=  123 fps= 14 q=28.0 size=     768kB time=00:00:02.92 bitrate=2154.7kbits/s speed=0.326x    frame=  129 fps= 14 q=28.0 size=    1024kB time=00:00:03.16 bitrate=2654.7kbits/s speed=0.333x    frame=  135 fps= 13 q=28.0 size=    1024kB time=00:00:03.40 bitrate=2467.3kbits/s speed=0.333x    frame=  141 fps= 13 q=28.0 size=    1024kB time=00:00:03.64 bitrate=2304.6kbits/s speed=0.339x    frame=  146 fps= 13 q=28.0 size=    1024kB time=00:00:03.84 bitrate=2184.6kbits/s speed=0.342x    frame=  151 fps= 13 q=28.0 size=    1280kB time=00:00:04.04 bitrate=2595.5kbits/s speed=0.342x    frame=  157 fps= 13 q=28.0 size=    1280kB time=00:00:04.28 bitrate=2450.0kbits/s speed=0.347x    frame=  162 fps= 13 q=28.0 size=    1280kB time=00:00:04.48 bitrate=2340.6kbits/s speed=0.347x    frame=  167 fps= 12 q=28.0 size=    1280kB time=00:00:04.68 bitrate=2240.6kbits/s speed=0.347x    frame=  173 fps= 12 q=28.0 size=    1280kB time=00:00:04.92 bitrate=2131.3kbits/s speed=0.348x    frame=  179 fps= 12 q=28.0 size=    1536kB time=00:00:05.16 bitrate=2438.6kbits/s speed=0.351x    frame=  184 fps= 12 q=28.0 size=    1536kB time=00:00:05.36 bitrate=2347.6kbits/s speed=0.353x    frame=  190 fps= 12 q=28.0 size=    1536kB time=00:00:05.60 bitrate=2247.0kbits/s speed=0.355x    frame=  195 fps= 12 q=28.0 size=    1536kB time=00:00:05.80 bitrate=2169.5kbits/s speed=0.354x    frame=  201 fps= 12 q=28.0 size=    1792kB time=00:00:06.04 bitrate=2430.5kbits/s speed=0.357x    frame=  207 fps= 12 q=28.0 size=    1792kB time=00:00:06.28 bitrate=2337.6kbits/s speed=0.357x    frame=  213 fps= 12 q=28.0 size=    1792kB time=00:00:06.52 bitrate=2251.6kbits/s speed=0.359x    frame=  219 fps= 12 q=28.0 size=    1792kB time=00:00:06.76 bitrate=2171.6kbits/s speed=0.358x    frame=  226 fps= 12 q=28.0 size=    2048kB time=00:00:07.04 bitrate=2383.2kbits/s speed=0.362x    frame=  231 fps= 11 q=28.0 size=    2048kB time=00:00:07.24 bitrate=2317.3kbits/s speed=0.359x    frame=  237 fps= 11 q=28.0 size=    2048kB time=00:00:07.48 bitrate=2243.0kbits/s speed=0.359x    frame=  243 fps= 11 q=28.0 size=    2304kB time=00:00:07.72 bitrate=2444.9kbits/s speed=0.361x    frame=  248 fps= 11 q=28.0 size=    2304kB time=00:00:07.92 bitrate=2383.2kbits/s speed=0.362x    frame=  253 fps= 11 q=28.0 size=    2304kB time=00:00:08.12 bitrate=2324.5kbits/s speed=0.362x    frame=  259 fps= 11 q=28.0 size=    2304kB time=00:00:08.36 bitrate=2257.7kbits/s speed=0.362x    frame=  265 fps= 11 q=28.0 size=    2304kB time=00:00:08.60 bitrate=2194.7kbits/s speed=0.364x    frame=  271 fps= 11 q=28.0 size=    2560kB time=00:00:08.84 bitrate=2372.4kbits/s speed=0.364x    frame=  277 fps= 11 q=28.0 size=    2560kB time=00:00:09.08 bitrate=2309.7kbits/s speed=0.366x    frame=  282 fps= 11 q=28.0 size=    2560kB time=00:00:09.28 bitrate=2259.9kbits/s speed=0.365x    frame=  288 fps= 11 q=28.0 size=    2560kB time=00:00:09.52 bitrate=2202.9kbits/s speed=0.367x    frame=  293 fps= 11 q=28.0 size=    2816kB time=00:00:09.72 bitrate=2373.3kbits/s speed=0.367x    frame=  293 fps=9.7 q=-1.0 Lsize=    3390kB time=00:00:11.60 bitrate=2394.3kbits/s speed=0.383x    
-video:3386kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.127043%
-[libx264 @ 0x55766fd3e1c0] frame I:2     Avg QP:18.52  size: 44956
-[libx264 @ 0x55766fd3e1c0] frame P:85    Avg QP:20.21  size: 23013
-[libx264 @ 0x55766fd3e1c0] frame B:206   Avg QP:21.97  size:  6896
-[libx264 @ 0x55766fd3e1c0] consecutive B-frames:  1.0% 13.0%  8.2% 77.8%
-[libx264 @ 0x55766fd3e1c0] mb I  I16..4: 41.6% 53.4%  5.0%
-[libx264 @ 0x55766fd3e1c0] mb P  I16..4:  7.8%  9.9%  0.1%  P16..4: 52.7%  7.0%  2.7%  0.0%  0.0%    skip:19.7%
-[libx264 @ 0x55766fd3e1c0] mb B  I16..4:  0.4%  0.4%  0.0%  B16..8: 26.7%  1.2%  0.1%  direct: 8.1%  skip:63.1%  L0:48.6% L1:50.0% BI: 1.4%
-[libx264 @ 0x55766fd3e1c0] 8x8 transform intra:54.9% inter:95.2%
-[libx264 @ 0x55766fd3e1c0] coded y,uvDC,uvAC intra: 21.0% 71.2% 8.0% inter: 5.6% 27.7% 0.0%
-[libx264 @ 0x55766fd3e1c0] i16 v,h,dc,p: 37% 25%  8% 30%
-[libx264 @ 0x55766fd3e1c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 16% 35%  3%  5%  5%  4%  4%  2%
-[libx264 @ 0x55766fd3e1c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 29% 12%  3%  8%  7%  6%  4%  2%
-[libx264 @ 0x55766fd3e1c0] i8c dc,h,v,p: 52% 22% 24%  2%
-[libx264 @ 0x55766fd3e1c0] Weighted P-Frames: Y:0.0% UV:0.0%
-[libx264 @ 0x55766fd3e1c0] ref P L0: 58.9%  5.3% 24.6% 11.2%
-[libx264 @ 0x55766fd3e1c0] ref B L0: 85.8% 11.3%  2.9%
-[libx264 @ 0x55766fd3e1c0] ref B L1: 95.8%  4.2%
-[libx264 @ 0x55766fd3e1c0] kb/s:2366.31
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-[libx264 @ 0x557832995c40] using SAR=640/639
-[libx264 @ 0x557832995c40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x557832995c40] profile High, level 3.0, 4:2:0, 8-bit
-[libx264 @ 0x557832995c40] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-[hls @ 0x55783298a480] Opening 'course-f09cb84b-4106-418e-9569-c625b19b7435_480p.ts' for writing
-    Last message repeated 1 times
-Output #0, hls, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_480p.m3u8':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264, yuv420p(tv, bt709, progressive), 852x480 [SAR 640:639 DAR 16:9], q=2-31, 25 fps, 90k tbn (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   47 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   66 fps= 60 q=28.0 size=N/A time=00:00:00.68 bitrate=N/A speed=0.62x    frame=   84 fps= 52 q=28.0 size=N/A time=00:00:01.40 bitrate=N/A speed=0.869x    frame=  102 fps= 48 q=28.0 size=N/A time=00:00:02.12 bitrate=N/A speed=   1x    frame=  121 fps= 46 q=28.0 size=N/A time=00:00:02.88 bitrate=N/A speed=1.09x    frame=  138 fps= 44 q=28.0 size=N/A time=00:00:03.56 bitrate=N/A speed=1.13x    frame=  158 fps= 43 q=28.0 size=N/A time=00:00:04.36 bitrate=N/A speed=1.18x    frame=  176 fps= 42 q=28.0 size=N/A time=00:00:05.08 bitrate=N/A speed=1.21x    frame=  194 fps= 41 q=28.0 size=N/A time=00:00:05.80 bitrate=N/A speed=1.23x    frame=  212 fps= 40 q=28.0 size=N/A time=00:00:06.52 bitrate=N/A speed=1.24x    frame=  230 fps= 40 q=28.0 size=N/A time=00:00:07.24 bitrate=N/A speed=1.26x    frame=  248 fps= 40 q=28.0 size=N/A time=00:00:07.96 bitrate=N/A speed=1.27x    frame=  266 fps= 39 q=28.0 size=N/A time=00:00:08.68 bitrate=N/A speed=1.28x    frame=  284 fps= 39 q=28.0 size=N/A time=00:00:09.40 bitrate=N/A speed=1.29x    [hls @ 0x55783298a480] Opening 'course-f09cb84b-4106-418e-9569-c625b19b7435_480p.m3u8.tmp' for writing
-[hls @ 0x55783298a480] Opening 'course-f09cb84b-4106-418e-9569-c625b19b7435_480p.m3u8.tmp' for writing
-frame=  293 fps= 36 q=-1.0 Lsize=N/A time=00:00:11.64 bitrate=N/A speed=1.41x    
-video:615kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
-[libx264 @ 0x557832995c40] frame I:2     Avg QP:20.42  size: 15232
-[libx264 @ 0x557832995c40] frame P:74    Avg QP:21.61  size:  4915
-[libx264 @ 0x557832995c40] frame B:217   Avg QP:24.73  size:  1081
-[libx264 @ 0x557832995c40] consecutive B-frames:  1.0%  0.0%  2.0% 96.9%
-[libx264 @ 0x557832995c40] mb I  I16..4: 23.4% 61.6% 15.0%
-[libx264 @ 0x557832995c40] mb P  I16..4:  2.3%  4.3%  0.3%  P16..4: 43.7% 11.6%  5.6%  0.0%  0.0%    skip:32.2%
-[libx264 @ 0x557832995c40] mb B  I16..4:  0.1%  0.1%  0.0%  B16..8: 26.9%  2.1%  0.2%  direct: 0.7%  skip:69.9%  L0:42.4% L1:54.5% BI: 3.1%
-[libx264 @ 0x557832995c40] 8x8 transform intra:61.9% inter:89.8%
-[libx264 @ 0x557832995c40] coded y,uvDC,uvAC intra: 46.1% 62.1% 12.3% inter: 6.9% 11.7% 0.0%
-[libx264 @ 0x557832995c40] i16 v,h,dc,p: 41% 18%  3% 38%
-[libx264 @ 0x557832995c40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 29% 14% 17%  4%  8% 10%  6%  7%  5%
-[libx264 @ 0x557832995c40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 31%  7%  3%  7%  8%  6%  4%  2%
-[libx264 @ 0x557832995c40] i8c dc,h,v,p: 56% 17% 24%  4%
-[libx264 @ 0x557832995c40] Weighted P-Frames: Y:0.0% UV:0.0%
-[libx264 @ 0x557832995c40] ref P L0: 59.9%  9.7% 22.7%  7.7%
-[libx264 @ 0x557832995c40] ref B L0: 92.4%  6.1%  1.5%
-[libx264 @ 0x557832995c40] ref B L1: 97.3%  2.7%
-[libx264 @ 0x557832995c40] kb/s:429.19
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-[libx264 @ 0x55c9376a9c40] using SAR=1/1
-[libx264 @ 0x55c9376a9c40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x55c9376a9c40] profile High, level 3.1, 4:2:0, 8-bit
-[libx264 @ 0x55c9376a9c40] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-[hls @ 0x55c93769e480] Opening 'course-f09cb84b-4106-418e-9569-c625b19b7435_720p.ts' for writing
-    Last message repeated 1 times
-Output #0, hls, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_720p.m3u8':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264, yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 90k tbn (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   47 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   57 fps= 49 q=28.0 size=N/A time=00:00:00.32 bitrate=N/A speed=0.275x    frame=   68 fps= 40 q=28.0 size=N/A time=00:00:00.76 bitrate=N/A speed=0.444x    frame=   77 fps= 35 q=28.0 size=N/A time=00:00:01.12 bitrate=N/A speed=0.505x    frame=   87 fps= 32 q=28.0 size=N/A time=00:00:01.52 bitrate=N/A speed=0.557x    frame=   97 fps= 30 q=28.0 size=N/A time=00:00:01.92 bitrate=N/A speed=0.587x    frame=  108 fps= 28 q=28.0 size=N/A time=00:00:02.36 bitrate=N/A speed=0.613x    frame=  119 fps= 27 q=28.0 size=N/A time=00:00:02.80 bitrate=N/A speed=0.634x    frame=  130 fps= 26 q=28.0 size=N/A time=00:00:03.24 bitrate=N/A speed=0.655x    frame=  139 fps= 25 q=28.0 size=N/A time=00:00:03.60 bitrate=N/A speed=0.657x    frame=  150 fps= 25 q=28.0 size=N/A time=00:00:04.04 bitrate=N/A speed=0.673x    frame=  160 fps= 25 q=28.0 size=N/A time=00:00:04.44 bitrate=N/A speed=0.68x    frame=  171 fps= 24 q=28.0 size=N/A time=00:00:04.88 bitrate=N/A speed=0.686x    frame=  182 fps= 24 q=28.0 size=N/A time=00:00:05.32 bitrate=N/A speed=0.696x    frame=  192 fps= 24 q=28.0 size=N/A time=00:00:05.72 bitrate=N/A speed=0.701x    frame=  203 fps= 23 q=28.0 size=N/A time=00:00:06.16 bitrate=N/A speed=0.705x    frame=  213 fps= 23 q=28.0 size=N/A time=00:00:06.56 bitrate=N/A speed=0.707x    frame=  224 fps= 23 q=28.0 size=N/A time=00:00:07.00 bitrate=N/A speed=0.715x    frame=  233 fps= 23 q=28.0 size=N/A time=00:00:07.36 bitrate=N/A speed=0.712x    frame=  244 fps= 22 q=28.0 size=N/A time=00:00:07.80 bitrate=N/A speed=0.716x    frame=  253 fps= 22 q=28.0 size=N/A time=00:00:08.16 bitrate=N/A speed=0.716x    frame=  264 fps= 22 q=28.0 size=N/A time=00:00:08.60 bitrate=N/A speed=0.722x    frame=  274 fps= 22 q=28.0 size=N/A time=00:00:09.00 bitrate=N/A speed=0.722x    frame=  285 fps= 22 q=28.0 size=N/A time=00:00:09.44 bitrate=N/A speed=0.724x    [hls @ 0x55c93769e480] Opening 'course-f09cb84b-4106-418e-9569-c625b19b7435_720p.m3u8.tmp' for writing
-[hls @ 0x55c93769e480] Opening 'course-f09cb84b-4106-418e-9569-c625b19b7435_720p.m3u8.tmp' for writing
-frame=  293 fps= 19 q=-1.0 Lsize=N/A time=00:00:11.64 bitrate=N/A speed=0.768x    
-video:1386kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
-[libx264 @ 0x55c9376a9c40] frame I:2     Avg QP:19.97  size: 26194
-[libx264 @ 0x55c9376a9c40] frame P:75    Avg QP:21.20  size: 10735
-[libx264 @ 0x55c9376a9c40] frame B:216   Avg QP:23.14  size:  2598
-[libx264 @ 0x55c9376a9c40] consecutive B-frames:  0.7%  1.4%  5.1% 92.8%
-[libx264 @ 0x55c9376a9c40] mb I  I16..4: 27.8% 62.3%  9.8%
-[libx264 @ 0x55c9376a9c40] mb P  I16..4:  4.7%  6.3%  0.2%  P16..4: 49.5% 10.0%  4.9%  0.0%  0.0%    skip:24.4%
-[libx264 @ 0x55c9376a9c40] mb B  I16..4:  0.2%  0.2%  0.0%  B16..8: 25.9%  1.7%  0.2%  direct: 2.4%  skip:69.5%  L0:43.5% L1:54.1% BI: 2.3%
-[libx264 @ 0x55c9376a9c40] 8x8 transform intra:56.9% inter:93.4%
-[libx264 @ 0x55c9376a9c40] coded y,uvDC,uvAC intra: 32.0% 66.2% 10.9% inter: 7.0% 18.2% 0.0%
-[libx264 @ 0x55c9376a9c40] i16 v,h,dc,p: 41% 21%  5% 32%
-[libx264 @ 0x55c9376a9c40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 15% 24%  4%  7%  8%  6%  6%  4%
-[libx264 @ 0x55c9376a9c40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 29% 29%  9%  3%  9%  9%  7%  4%  2%
-[libx264 @ 0x55c9376a9c40] i8c dc,h,v,p: 56% 18% 22%  4%
-[libx264 @ 0x55c9376a9c40] Weighted P-Frames: Y:2.7% UV:0.0%
-[libx264 @ 0x55c9376a9c40] ref P L0: 59.0%  7.3% 24.3%  9.2%  0.2%
-[libx264 @ 0x55c9376a9c40] ref B L0: 89.1%  8.6%  2.4%
-[libx264 @ 0x55c9376a9c40] ref B L1: 96.7%  3.3%
-[libx264 @ 0x55c9376a9c40] kb/s:968.42
-ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
-  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
-  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
-  libavutil      56. 70.100 / 56. 70.100
-  libavcodec     58.134.100 / 58.134.100
-  libavformat    58. 76.100 / 58. 76.100
-  libavdevice    58. 13.100 / 58. 13.100
-  libavfilter     7.110.100 /  7.110.100
-  libswscale      5.  9.100 /  5.  9.100
-  libswresample   3.  9.100 /  3.  9.100
-  libpostproc    55.  9.100 / 55.  9.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'course-f09cb84b-4106-418e-9569-c625b19b7435_compressed.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Duration: 00:00:11.72, start: 0.000000, bitrate: 2237 kb/s
-  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 2234 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-Stream mapping:
-  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
-Press [q] to stop, [?] for help
-[libx264 @ 0x563e751acc40] using SAR=1/1
-[libx264 @ 0x563e751acc40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
-[libx264 @ 0x563e751acc40] profile High, level 4.0, 4:2:0, 8-bit
-[libx264 @ 0x563e751acc40] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-[hls @ 0x563e751a1480] Opening 'course-f09cb84b-4106-418e-9569-c625b19b7435_1080p.ts' for writing
-    Last message repeated 1 times
-Output #0, hls, to 'course-f09cb84b-4106-418e-9569-c625b19b7435_1080p.m3u8':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf58.76.100
-  Stream #0:0(und): Video: h264, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 90k tbn (default)
-    Metadata:
-      handler_name    : L-SMASH Video Handler
-      vendor_id       : [0][0][0][0]
-      encoder         : Lavc58.134.100 libx264
-    Side data:
-      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   47 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    frame=   53 fps= 35 q=28.0 size=N/A time=00:00:00.16 bitrate=N/A speed=0.107x    frame=   60 fps= 26 q=28.0 size=N/A time=00:00:00.44 bitrate=N/A speed=0.193x    frame=   66 fps= 23 q=28.0 size=N/A time=00:00:00.68 bitrate=N/A speed=0.239x    frame=   71 fps= 21 q=28.0 size=N/A time=00:00:00.88 bitrate=N/A speed=0.262x    frame=   76 fps= 20 q=28.0 size=N/A time=00:00:01.08 bitrate=N/A speed=0.28x    frame=   81 fps= 18 q=28.0 size=N/A time=00:00:01.28 bitrate=N/A speed=0.286x    frame=   87 fps= 17 q=28.0 size=N/A time=00:00:01.52 bitrate=N/A speed=0.297x    frame=   93 fps= 16 q=28.0 size=N/A time=00:00:01.76 bitrate=N/A speed=0.306x    frame=   99 fps= 16 q=28.0 size=N/A time=00:00:02.00 bitrate=N/A speed=0.317x    frame=  104 fps= 15 q=28.0 size=N/A time=00:00:02.20 bitrate=N/A speed=0.317x    frame=  110 fps= 15 q=28.0 size=N/A time=00:00:02.44 bitrate=N/A speed=0.326x    frame=  115 fps= 14 q=28.0 size=N/A time=00:00:02.64 bitrate=N/A speed=0.328x    frame=  121 fps= 14 q=28.0 size=N/A time=00:00:02.88 bitrate=N/A speed=0.33x    frame=  127 fps= 14 q=28.0 size=N/A time=00:00:03.12 bitrate=N/A speed=0.332x    frame=  133 fps= 13 q=28.0 size=N/A time=00:00:03.36 bitrate=N/A speed=0.338x    frame=  138 fps= 13 q=28.0 size=N/A time=00:00:03.56 bitrate=N/A speed=0.34x    frame=  143 fps= 13 q=28.0 size=N/A time=00:00:03.76 bitrate=N/A speed=0.34x    frame=  149 fps= 13 q=28.0 size=N/A time=00:00:04.00 bitrate=N/A speed=0.346x    frame=  155 fps= 13 q=28.0 size=N/A time=00:00:04.24 bitrate=N/A speed=0.346x    frame=  161 fps= 12 q=28.0 size=N/A time=00:00:04.48 bitrate=N/A speed=0.347x    frame=  167 fps= 12 q=28.0 size=N/A time=00:00:04.72 bitrate=N/A speed=0.35x    frame=  173 fps= 12 q=28.0 size=N/A time=00:00:04.96 bitrate=N/A speed=0.352x    frame=  179 fps= 12 q=28.0 size=N/A time=00:00:05.20 bitrate=N/A speed=0.353x    frame=  185 fps= 12 q=28.0 size=N/A time=00:00:05.44 bitrate=N/A speed=0.355x    frame=  191 fps= 12 q=28.0 size=N/A time=00:00:05.68 bitrate=N/A speed=0.356x    frame=  197 fps= 12 q=28.0 size=N/A time=00:00:05.92 bitrate=N/A speed=0.358x    frame=  203 fps= 12 q=28.0 size=N/A time=00:00:06.16 bitrate=N/A speed=0.359x    frame=  209 fps= 12 q=28.0 size=N/A time=00:00:06.40 bitrate=N/A speed=0.36x    frame=  215 fps= 12 q=28.0 size=N/A time=00:00:06.64 bitrate=N/A speed=0.36x    frame=  221 fps= 12 q=28.0 size=N/A time=00:00:06.88 bitrate=N/A speed=0.363x    frame=  227 fps= 12 q=28.0 size=N/A time=00:00:07.12 bitrate=N/A speed=0.361x    frame=  233 fps= 11 q=28.0 size=N/A time=00:00:07.36 bitrate=N/A speed=0.362x    frame=  237 fps= 11 q=28.0 size=N/A time=00:00:07.52 bitrate=N/A speed=0.361x    frame=  243 fps= 11 q=28.0 size=N/A time=00:00:07.76 bitrate=N/A speed=0.362x    frame=  249 fps= 11 q=28.0 size=N/A time=00:00:08.00 bitrate=N/A speed=0.364x    frame=  255 fps= 11 q=28.0 size=N/A time=00:00:08.24 bitrate=N/A speed=0.363x    frame=  262 fps= 11 q=28.0 size=N/A time=00:00:08.52 bitrate=N/A speed=0.366x    frame=  267 fps= 11 q=28.0 size=N/A time=00:00:08.72 bitrate=N/A speed=0.365x    frame=  274 fps= 11 q=28.0 size=N/A time=00:00:09.00 bitrate=N/A speed=0.366x    frame=  280 fps= 11 q=28.0 size=N/A time=00:00:09.24 bitrate=N/A speed=0.368x    frame=  285 fps= 11 q=28.0 size=N/A time=00:00:09.44 bitrate=N/A speed=0.368x    frame=  290 fps= 11 q=28.0 size=N/A time=00:00:09.64 bitrate=N/A speed=0.367x    [hls @ 0x563e751a1480] Opening 'course-f09cb84b-4106-418e-9569-c625b19b7435_1080p.m3u8.tmp' for writing
-[hls @ 0x563e751a1480] Opening 'course-f09cb84b-4106-418e-9569-c625b19b7435_1080p.m3u8.tmp' for writing
-frame=  293 fps=9.7 q=-1.0 Lsize=N/A time=00:00:11.64 bitrate=N/A speed=0.384x    
-video:3386kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
-[libx264 @ 0x563e751acc40] frame I:2     Avg QP:18.52  size: 44956
-[libx264 @ 0x563e751acc40] frame P:85    Avg QP:20.21  size: 23013
-[libx264 @ 0x563e751acc40] frame B:206   Avg QP:21.97  size:  6896
-[libx264 @ 0x563e751acc40] consecutive B-frames:  1.0% 13.0%  8.2% 77.8%
-[libx264 @ 0x563e751acc40] mb I  I16..4: 41.6% 53.4%  5.0%
-[libx264 @ 0x563e751acc40] mb P  I16..4:  7.8%  9.9%  0.1%  P16..4: 52.7%  7.0%  2.7%  0.0%  0.0%    skip:19.7%
-[libx264 @ 0x563e751acc40] mb B  I16..4:  0.4%  0.4%  0.0%  B16..8: 26.7%  1.2%  0.1%  direct: 8.1%  skip:63.1%  L0:48.6% L1:50.0% BI: 1.4%
-[libx264 @ 0x563e751acc40] 8x8 transform intra:54.9% inter:95.2%
-[libx264 @ 0x563e751acc40] coded y,uvDC,uvAC intra: 21.0% 71.2% 8.0% inter: 5.6% 27.7% 0.0%
-[libx264 @ 0x563e751acc40] i16 v,h,dc,p: 37% 25%  8% 30%
-[libx264 @ 0x563e751acc40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 16% 35%  3%  5%  5%  4%  4%  2%
-[libx264 @ 0x563e751acc40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 29% 12%  3%  8%  7%  6%  4%  2%
-[libx264 @ 0x563e751acc40] i8c dc,h,v,p: 52% 22% 24%  2%
-[libx264 @ 0x563e751acc40] Weighted P-Frames: Y:0.0% UV:0.0%
-[libx264 @ 0x563e751acc40] ref P L0: 58.9%  5.3% 24.6% 11.2%
-[libx264 @ 0x563e751acc40] ref B L0: 85.8% 11.3%  2.9%
-[libx264 @ 0x563e751acc40] ref B L1: 95.8%  4.2%
-[libx264 @ 0x563e751acc40] kb/s:2366.31
