@@ -24,7 +24,7 @@ except Exception as e:
 try:
     url = "https://api.wenroll.com/videos/conversion-success"
     data = {"videoKey": folder_name + ".mp4"}
-    response = requests.put(url, json=data)
+    response = requests.post(url, json=data)
     if response.status_code != 200:
         print(f"Error occurred while sending PUT request: {response.text}")
 except Exception as e:
