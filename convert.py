@@ -19,7 +19,7 @@ s3 = boto3.client('s3')
 try:
     s3.upload_file(folder_name + "_thumbnail.jpg", "production-wenroll", folder_name + "/" + folder_name + "_thumbnail.jpg")
 except Exception as e:
-    print(f"Error occurred while running upload_file(jpeg) on production with error: {e}")
+    print(f"Error occurred while running upload_file(jpeg) on Production with error: {e}")
 try:
     start = time.perf_counter()
     subprocess.run(['/usr/bin/ffmpeg', '-i', input_file, '-vcodec', 'libx264', '-crf', '25', '-preset', 'medium', '-tune', 'film', '-threads', '32', '-y', output_file])
@@ -28,37 +28,12 @@ try:
 except Exception as e:
     print(f"Error occurred while running ffmpeg: {e}")
 try:
-    start = time.perf_counter()
-    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd480", "-threads", "32", "-c:v", "libx264", "-c:a", "aac", folder_name + "_480p.mp4"])
-    elapsed_time = time.perf_counter() - start
-    with open('py.log', 'a') as f:
-        f.write(f"Time spent on subprocess 480p: {elapsed_time:0.2f} seconds\n")
-    start = time.perf_counter()
-    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd720", "-threads", "32", "-c:v", "libx264", "-c:a", "aac", folder_name + "_720p.mp4"])
-    elapsed_time = time.perf_counter() - start
-    with open('py.log', 'a') as f:
-        f.write(f"Time spent on subprocess 720p: {elapsed_time:0.2f} seconds\n")
-    start = time.perf_counter()
-    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd1080", "-threads", "32", "-c:v", "libx264", "-c:a", "aac", folder_name + "_1080p.mp4"])
-    elapsed_time = time.perf_counter() - start
-    with open('py.log', 'a') as f:
-        f.write(f"Time spent on subprocess 1080p: {elapsed_time:0.2f} seconds\n")
-    start = time.perf_counter()
-    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd480", "-threads", "32", "-c:v", "libx264", "-c:a", "aac", "-hls_time", "10", "-hls_flags", "single_file", "-hls_list_size", "0", "-f", "hls", folder_name + "_480p.m3u8"])
-    elapsed_time = time.perf_counter() - start
-    with open('py.log', 'a') as f:
-        f.write(f"Time spent on subprocess 480p playlist: {elapsed_time:0.2f} seconds\n")
-    start = time.perf_counter()
-    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd720", "-threads", "32", "-c:v", "libx264", "-c:a", "aac", "-hls_time", "10", "-hls_flags", "single_file", "-hls_list_size", "0", "-f", "hls", folder_name + "_720p.m3u8"])
-    elapsed_time = time.perf_counter() - start
-    with open('py.log', 'a') as f:
-        f.write(f"Time spent on subprocess 720p playlist: {elapsed_time:0.2f} seconds\n")
-    start = time.perf_counter()
-    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd1080", "-threads", "32", "-c:v", "libx264", "-c:a", "aac", "-hls_time", "10", "-hls_flags", "single_file", "-hls_list_size", "0", "-f", "hls", folder_name + "_1080p.m3u8"])
-    elapsed_time = time.perf_counter() - start
-    with open('py.log', 'a') as f:
-        f.write(f"Time spent on subprocess 1080p playlist: {elapsed_time:0.2f} seconds\n")
-
+#    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd480", folder_name + "_480p.mp4"])
+#    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd720", folder_name + "_720p.mp4"])
+#    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd1080", folder_name + "_1080p.mp4"])
+    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd480", "-hls_time", "10", "-hls_flags", "single_file", "-hls_list_size", "0", "-f", "hls", folder_name + "_480p.m3u8"])
+    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd720", "-hls_time", "10", "-hls_flags", "single_file", "-hls_list_size", "0", "-f", "hls", folder_name + "_720p.m3u8"])
+    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd1080", "-hls_time", "10", "-hls_flags", "single_file", "-hls_list_size", "0", "-f", "hls", folder_name + "_1080p.m3u8"])
 except Exception as e:
     print(f"Error occurred while running ffmpeg: {e}")
 playlist = "#EXTM3U\n"
@@ -70,9 +45,9 @@ playlist += "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1200000\n"
 playlist += folder_name + "_1080p.m3u8\n"
 with open(folder_name + "_playlist.m3u8", "w") as f:
     f.write(playlist)
-os.chmod(folder_name + "_480p.mp4", 0o777)
+#os.chmod(folder_name + "_480p.mp4", 0o777)
 os.chmod(folder_name + "_720p.mp4", 0o777)
-os.chmod(folder_name + "_1080p.mp4", 0o777)
+#os.chmod(folder_name + "_1080p.mp4", 0o777)
 os.chmod(folder_name + "_480p.ts", 0o777)
 os.chmod(folder_name + "_720p.ts", 0o777)
 os.chmod(folder_name + "_1080p.ts", 0o777)
@@ -80,9 +55,9 @@ os.chmod(folder_name + "_480p.m3u8", 0o777)
 os.chmod(folder_name + "_720p.m3u8", 0o777)
 os.chmod(folder_name + "_1080p.m3u8", 0o777)
 os.chmod(folder_name + "_playlist.m3u8", 0o777)
-os.chown(folder_name + "_480p.mp4", 1000, 1000)
+#os.chown(folder_name + "_480p.mp4", 1000, 1000)
 os.chown(folder_name + "_720p.mp4", 1000, 1000)
-os.chown(folder_name + "_1080p.mp4", 1000, 1000)
+#os.chown(folder_name + "_1080p.mp4", 1000, 1000)
 os.chown(folder_name + "_480p.ts", 1000, 1000)
 os.chown(folder_name + "_720p.ts", 1000, 1000)
 os.chown(folder_name + "_1080p.ts", 1000, 1000)

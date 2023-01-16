@@ -1,22 +1,23 @@
-from flask import Flask, request
+from flask import Flask, request, make_response
 import subprocess
 import requests
-
+from flask_cors import CORS
 app = Flask(__name__)
+CORS(app)
 
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['PUT'])
+
 def handle_request():
-    if 'video_name' in request.args:
-        video_name = request.args['video_name']
-        bucket_name = "production-wenroll"
-        url = "https://s3.eu-central-1.amazonaws.com/{}/{}".format(bucket_name, video_name)
-        content = requests.get(url).content
-        if content is None:
-            return "Error: File not found", 404
-        else:
-            with open(video_name, 'wb') as f:
-                f.write(content)
-            subprocess.Popen(["/usr/bin/python3", "convert.py", video_name])
-            return "Process started", 200
+    if 'video_key' in request.args and 'file' in request.files:
+        video_key = request.args['video_key']
+        file = request.files['file']
+        file.save(video_key)
+        subprocess.Popen(["/usr/bin/python3", "convert.py", video_key])
+        response = make_response("Process started", 200)
+        return response
+    else:
+        return "Error: Invalid request", 400
+#
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', debug=True)
