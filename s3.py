@@ -3,6 +3,7 @@ import boto3
 import os
 import pymongo
 import subprocess
+import requests
 folder_name = sys.argv[1]
 s3 = boto3.client('s3')
 bucket_name = "development-wenroll"
