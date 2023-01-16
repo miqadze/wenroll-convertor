@@ -31,6 +31,12 @@ try:
         link["converted"] = True
     collection.replace_one({"_id": doc["_id"]}, doc)
     client.close()
+    # Send PUT request with video key in body
+    url = 'https://apitest.wenroll.com/videos/conversion-success'
+    video_key = folder_name + ".mp4"
+    body = {'videoKey': video_key}
+    response = requests.put(url, json=body)
+    print(response.status_code)
 except Exception as e:
     print(f"Error occured while writing in database: {e}")
 #os.remove(folder_name + "_480p.mp4")
