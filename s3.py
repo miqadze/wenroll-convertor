@@ -23,21 +23,11 @@ try:
 except Exception as e:
     print(f"Error occurred while running upload_file: {e}")
 try:
-    print(folder_name)
-    client = pymongo.MongoClient("mongodb+srv://wenroll:duB2BNFI123Q1Yhh@developmentstaging.494tz.mongodb.net")
-    db = client["wenroll_development"]
-    collection = db["videos"]
-    doc = collection.find_one({"name": folder_name})
-    for link in doc['links']:
-        link["converted"] = True
-    collection.replace_one({"_id": doc["_id"]}, doc)
-    client.close()
-    # Send PUT request with video key in body
-    url = 'https://apitest.wenroll.com/videos/conversion-success'
-    video_key = folder_name + ".mp4"
-    body = {'videoKey': video_key}
-    response = requests.put(url, json=body)
-    print(response.status_code)
+    url = "https://apitest.wenroll.com/videos/conversion-success"
+    data = {"videoKey": folder_name + ".mp4"}
+    response = requests.post(url, json=data)
+    if response.status_code != 200:
+        print(f"Error occurred while sending PUT request: {response.text}")
 except Exception as e:
     print(f"Error occured while writing in database: {e}")
 #os.remove(folder_name + "_480p.mp4")
