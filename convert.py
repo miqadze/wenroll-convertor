@@ -66,4 +66,4 @@ os.chown(folder_name + "_720p.m3u8", 1000, 1000)
 os.chown(folder_name + "_1080p.m3u8", 1000, 1000)
 os.chown(folder_name + "_playlist.m3u8", 1000, 1000)
 with open('py.log', 'a') as f:
-    subprocess.run(['python3', 's3.py', folder_name], stdout=f)
+    subprocess.run(['/usr/bin/python3', 's3.py', folder_name], stdout=f)
