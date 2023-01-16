@@ -21,7 +21,7 @@ except Exception as e:
     print(f"Error occurred while running ffmpeg: {e}")
 try:
 #    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd480", folder_name + "_480p.mp4"])
-#    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd720", folder_name + "_720p.mp4"])
+    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd720", folder_name + "_720p.mp4"])
 #    subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd1080", folder_name + "_1080p.mp4"])
     subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd480", "-hls_time", "10", "-hls_flags", "single_file", "-hls_list_size", "0", "-f", "hls", folder_name + "_480p.m3u8"])
     subprocess.run(["/usr/bin/ffmpeg", "-i", output_file, "-s", "hd720", "-hls_time", "10", "-hls_flags", "single_file", "-hls_list_size", "0", "-f", "hls", folder_name + "_720p.m3u8"])
