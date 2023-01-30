@@ -6,7 +6,8 @@ app = Flask(__name__)
 CORS(app)
 
 def check_authorization(get_response):
-    def middleware(request):
+    def middleware(environ, start_response):
+        request = Request(environ)
         auth_header = request.headers.get("Authorization")
         video_key = request.args['video_key']
         if not auth_header:
@@ -15,7 +16,7 @@ def check_authorization(get_response):
         response = requests.post("https://apitest.wenroll.com/validate", headers=headers)
         if response.status_code != 200:
             return "Unauthorized", 401
-        response = get_response(request)
+        response = get_response(environ, start_response)
         return response
     return middleware
 app.wsgi_app = check_authorization(app.wsgi_app)
