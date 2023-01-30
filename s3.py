@@ -15,9 +15,7 @@ match = re.search(r"Duration: (\d{2}):(\d{2}):(\d{2})", output)
 duration_seconds = int(match.group(1)) * 3600 + int(match.group(2)) * 60 + int(match.group(3))
 print(f"Duration of {input_file} is {duration_seconds} seconds.")
 try:
- #   s3.upload_file(folder_name + "_480p.mp4", bucket_name, folder_name + "/" + folder_name + "_480p.mp4")
     s3.upload_file(folder_name + "_720p.mp4", bucket_name, folder_name + "/" + folder_name + "_720p.mp4")
- #   s3.upload_file(folder_name + "_1080p.mp4", bucket_name, folder_name + "/" + folder_name + "_1080p.mp4")
     s3.upload_file(folder_name + "_480p.m3u8", bucket_name, folder_name + "/" + folder_name + "_480p.m3u8")
     s3.upload_file(folder_name + "_720p.m3u8", bucket_name, folder_name + "/" + folder_name + "_720p.m3u8")
     s3.upload_file(folder_name + "_1080p.m3u8", bucket_name, folder_name + "/" + folder_name + "_1080p.m3u8")
@@ -26,7 +24,6 @@ try:
     s3.upload_file(folder_name + "_1080p.ts", bucket_name, folder_name + "/" + folder_name + "_1080p.ts")
     s3.upload_file(folder_name + "_playlist.m3u8", bucket_name, folder_name + "/" + folder_name + "_playlist.m3u8")
     s3.upload_file(folder_name + "_compressed.mp4", bucket_name, folder_name + "/" + folder_name + ".mp4")
-    subprocess.run(['aws', 's3', 'rm', 's3://development-wenroll/' + folder_name + '.mp4', '--recursive'])
 except Exception as e:
     print(f"Error occurred while running upload_file: {e}")
 try:
@@ -37,9 +34,7 @@ try:
         print(f"Error occurred while sending POST request: {response.text}")
 except Exception as e:
     print(f"Error occured while writing in database: {e}")
-#os.remove(folder_name + "_480p.mp4")
 os.remove(folder_name + "_720p.mp4")
-#os.remove(folder_name + "_1080p.mp4")
 os.remove(folder_name + "_playlist.m3u8")
 os.remove(folder_name + "_480p.m3u8")
 os.remove(folder_name + "_720p.m3u8")

@@ -5,6 +5,22 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+def check_authorization(get_response):
+    def middleware(request):
+        auth_header = request.headers.get("Authorization")
+        video_key = request.args['video_key']
+        if not auth_header:
+            return "Unauthorized", 401
+        headers = {"Authorization": auth_header, "video_key":video_key}
+        response = requests.post("https://apitest.wenroll.com/validate", headers=headers)
+        if response.status_code != 200:
+            return "Unauthorized", 401
+        response = get_response(request)
+        return response
+    return middleware
+app.wsgi_app = check_authorization(app.wsgi_app)
+
+
 @app.route('/', methods=['PUT'])
 
 def handle_request():
